@@ -1,0 +1,83 @@
+/*
+Theme Name: Projet DJA
+Author: Groupe DJA
+Author URI: test.com
+Description: Un theme pour le tour du numérique
+*/
+
+
+
+body {
+	margin: auto;
+}
+
+nav {
+	border-width:1px 2px 3px 2px;
+}
+
+.home h1, .home p, .home a {
+	text-align: center;
+}
+
+section
+{
+	margin: 10px;
+}
+
+div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+footer {
+	margin-top: 10px;
+}
+
+.banniere
+{
+	width: 100%;
+}
+
+.content {
+	
+	background-color: #ff9933;
+}
+
+
+.primary-menu{
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	border-radius: 0;
+	width: 300px;
+}
+
+ ul {
+	display: flex;
+}
+
+.primary-menu ul ul {
+
+}
+
+.primary-menu li {
+	list-style-type: none;
+	text-align: center;
+}
+
+.primary-menu li a {
+color: black;
+text-decoration: none;
+font-size: 1em;
+}
+
+.primary-menu li ul {
+
+}
+
+.primary-menu li li {
+
+}
+
+.primary-menu li li a {
+
+} 
