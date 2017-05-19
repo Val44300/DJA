@@ -71,3 +71,53 @@ color: #070707;
 	text-align: center;
 	color: #533817;
 }
+
+footer {
+	margin: 50px 0 0 0;
+	background-color: #ffffff;
+}
+
+footer .navbar-default {
+	background-color: #ffffff;
+}
+
+
+.btn-inscription {
+	background-color: #f9b157;
+	color: white;
+	height: 30px;
+	margin: 10px 0 0 0;
+	border: 0;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px #d6d6d6;
+}
+
+/*
+Solution avec positionnement relatif
+
+*/
+
+footer {
+	position: relative;
+}
+
+.img-footer, .newsletter-footer, .newsletter-paragraph, form {
+	display: inline-block;
+}
+
+.newsletter-paragraph {
+	vertical-align: top;
+}
+
+.img-footer {
+	vertical-align: top;
+	margin: 10px 0 0 10px;
+}
+
+.newsletter-footer {
+	width: 35%;
+	position: relative;
+	left: 1000px;
+	top: 50px;
+}
+
