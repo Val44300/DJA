@@ -46,6 +46,7 @@ color: #070707;
 
 .animation {
 	margin: 10px 10px 10px 10px;
+	height: 80px;
 }
 
 .animation .animation-header {
@@ -56,6 +57,7 @@ color: #070707;
 
 .animation-body {
 	background-color: #e5dede;
+	margin: -20px 0 0 0;
 }
 
 .animation-body h3 {
@@ -64,12 +66,18 @@ color: #070707;
 
 .animation-body a {
 	background-color: #f9b157;
-	display: block;
+	display: inline-block;
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
 	text-align: center;
 	color: #533817;
+	margin: 10px 10px 10px 10px;
+	box-shadow: 5px 5px 5px #505050;
+}
+
+.animation-link {
+	text-align: right;
 }
 
 footer {
