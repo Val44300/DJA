@@ -7,8 +7,10 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link href="http://localhost/ebauche/wp-content/themes/themedja/style.css" rel="stylesheet">
 	<link rel="shortcut icon" href="">
+	<?php wp_head(); ?>
 </head>
 <body>
+
 	<header class="container">
 		<div class="row">
 			<div class="col-md-4 col-xs-12">
