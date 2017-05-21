@@ -1,0 +1,293 @@
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('bebasneue_bold-webfont.woff2') format('woff2'),
+         url('bebasneue_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('bebasneue_book-webfont.woff2') format('woff2'),
+         url('bebasneue_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bebas_neuelight';
+    src: url('bebasneue_light-webfont.woff2') format('woff2'),
+         url('bebasneue_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserrat_alternatesblack';
+    src: url('montserratalternates-black-webfont.woff2') format('woff2'),
+         url('montserratalternates-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesbold';
+    src: url('montserratalternates-bold-webfont.woff2') format('woff2'),
+         url('montserratalternates-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesXBd';
+    src: url('montserratalternates-extrabold-webfont.woff2') format('woff2'),
+         url('montserratalternates-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesXLt';
+    src: url('montserratalternates-extralight-webfont.woff2') format('woff2'),
+         url('montserratalternates-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternateslight';
+    src: url('montserratalternates-light-webfont.woff2') format('woff2'),
+         url('montserratalternates-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesmedium';
+    src: url('montserratalternates-medium-webfont.woff2') format('woff2'),
+         url('montserratalternates-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesregular';
+    src: url('montserratalternates-regular-webfont.woff2') format('woff2'),
+         url('montserratalternates-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatessemibold';
+    src: url('montserratalternates-semibold-webfont.woff2') format('woff2'),
+         url('montserratalternates-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesthin';
+    src: url('montserratalternates-thin-webfont.woff2') format('woff2'),
+         url('montserratalternates-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('montserrat-black-webfont.woff2') format('woff2'),
+         url('montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('montserrat-bold-webfont.woff2') format('woff2'),
+         url('montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#bloc_page{
+	width: 1024px;
+    display: flex;
+    flex-direction: column;
+	
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	background: url(images/chateau.jpg);
+	background-size: 1024px;
+}
+
+#logo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+#logo img{
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+nav{
+
+	align-self: flex-end;
+	margin-right: 15px;
+	align-self: flex-start;
+}
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+}
+
+
+nav li{
+	margin-right: 20px;
+
+
+}
+
+nav a{
+	font-family: Montserrat, regular;
+	font-size: 14px;
+    color: #ffffff;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	height: 683px;
+	width: 1024px;
+}
+
+header h1{
+	font-family: Bebas Neue, bold;
+	font-size: 50px;
+	letter-spacing:  2px;
+	color: #ffffff;
+	text-align: center;
+	
+}
+
+header h3{
+	font-family: Montserrat, light;
+	color: #ffffff;
+	margin-top: -30px;
+}
+
+header h4{
+	font-family: Montserrat, regular;
+	font-size: 18px;
+	color: #ffffff;
+	margin-top: 10px;
+}
+
+#titre_principal{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 65px;
+	margin-left: 70px;
+ }
+
+#acteurs{
+    display: flex;
+    flex-direction: column;
+}
+#acteurs{
+    display: flex;
+    font-family: Montserrat, medium;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+ 
+section img{
+    width: 300px;
+    height: 200px;
+}
+
+#ordinateur{
+    display: flex;
+    justify-content: center;
+    
+}
+
+a img{
+    width: 1024px;
+    height: 365px;
+}
