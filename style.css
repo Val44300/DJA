@@ -33,3 +33,44 @@ color: #070707;
 .banniere img {
 	width: 100%;
 }
+
+
+/*
+programme des animations
+*/
+.animation {
+	margin: 10px 10px 30px 10px;
+	height: 80px;
+}
+
+.animation .animation-header {
+	text-align: center;
+	background-color: #b0b1b1;
+	color: #f98228;
+}
+
+.animation .animation-body {
+	background-color: #e5dede;
+	margin: -10px 0 0 0;
+	padding: 0 0 0 10px;
+}
+
+.animation-body h3 {
+	text-align: center;
+}
+
+.animation-body a {
+	background-color: #f9b157;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	text-align: center;
+	color: #533817;
+	margin: 10px 10px 10px 10px;
+	box-shadow: 5px 5px 5px #505050;
+}
+
+.animation-link {
+	text-align: right;
+}
