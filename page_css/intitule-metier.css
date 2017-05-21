@@ -1,0 +1,52 @@
+body{
+	background-color: white;
+}
+#metiers{
+	background-color : #f9B157;
+	margin : auto;
+	width : 400px;
+	border-radius : 40px;
+}
+h1{
+	text-align : center;
+	color : white;
+}
+h2{
+	color : black;
+	text-align : center;
+	padding-top: 0px;
+	padding-bottom : 1px;
+}
+p{
+	color : black;
+	padding-bottom : 20px;
+	padding-top : 0px;
+	margin-right : 20px;
+	margin-left : 20px;
+}
+#description{
+	background-color : grey;
+	margin-right : 32px;
+	margin-left : 32px;
+}
+div>div>div>p:first-child{
+	text-align : center;
+	margin-right : 100px;
+	margin-left : 100px;
+	padding-bottom : 50px;
+	padding-top : 50px;
+}
+div{
+}
+#position{
+	margin-right : 12px;
+	margin-left : 12px;
+}
+#gauche, #centre, #droite{
+	background-color : lightgrey;
+    float : left;
+    width : 402px;
+    height : 150px;
+    margin-left : 20px;
+    margin-right : 20px;
+}
