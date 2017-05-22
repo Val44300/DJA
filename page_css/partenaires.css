@@ -1,0 +1,23 @@
+#bloc_page {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+header{
+  margin: auto;
+  padding:
+}
+li {
+    display: inline;
+}
+#header{
+  display: inline;
+}
+#main{
+  display: inline;
+  text-align: center;
+}
+footer {
+  display: inline;
+  margin: auto;
+  padding:
+}
