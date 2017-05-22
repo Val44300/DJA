@@ -12,29 +12,29 @@
     <title>Le Tour du Numérique</title>
   </head>
   <body>
-    <div id="bloc_page">
+    <div class="container">
 
-      <header>
+      <div class="item header">
+        <div id="logo">
+          <img src="../Images/logo.png" class="img-responsive"alt="Logo Filière Numérique" style= "width:120px;height:100px">
+        </div>
+        <nav id="menu">
+          <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Démarrez le Tour!</a></li>
+            <li><a href="#">Métiers</a></li>
+            <li><a href="#">Digital Job Ambition</a></li>
+            <li><a href="#">La Filière Numérique</a></li>
+          </ul>
+        </nav>
+        <form action="/action_page.php">
+          <input type="search" name="recherche" value="Rechercher">
+          <input type="submit"name="Rechercher">
+        </form>
+    </div>
 
-          <img src="../Images/logo.png" class="img-responsive"alt="Logo Filière Numérique" style= "width:130px;height:100px">
-          <nav id="menu">
-            <ul>
-              <li><a href="#">Accueil</a></li>
-              <li><a href="#">Démarrez le Tour!</a></li>
-              <li><a href="#">Métiers</a></li>
-              <li><a href="#">Digital Job Ambition</a></li>
-              <li><a href="#">La Filière Numérique</a></li>
-            </ul>
-          </nav>
-          <form action="/action_page.php">
-              <input type="search" name="recherche" value="Rechercher">
-              <input type="submit"name="Rechercher">
-          </form>
-
-      </header>
-
-      <article>
-        <table border="1">
+    <div class="item article">
+        <table>
           <caption>Nos partenaires</caption>
           <thread><!--entête de tableau-->
             <tr>
@@ -78,33 +78,30 @@
           </tbody>
         </table>
 
-          <div id="partenaires institutionnels">
-            <p>Partenaires institutionnels</p>
-          </div>
-          <div id="partenaires institutionnels">
-            <p>Partenaires privés</p>
-          </div>
-        </table>
-      </article>
+      </div>
 
-      <footer>
+      <div class="item footer">
 
         <div id="reseaux_sociaux">
             <p>Réseaux sociaux</p>
-          </div>
-          <nav id="menu2">
-            <ul>
-              <li><a href="#">Partenaires</a></li>
-              <li><a href="#">Mentions légales</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Espace presse</a></li>
-            </ul>
-          </nav>
-          <div id="newsletter">
-            <p>Newsletter</p>
-          </div>
         </div>
-    </footer>
-    </div>
+        <nav id="menu2">
+          <ul>
+            <li><a href="#">Partenaires</a></li>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Espace presse</a></li>
+          </ul>
+        </nav>
+        <div id="newsletter">
+          <form action="/action_page.php">
+            <input type="name" name="nom" value="Nom">
+            <input type="email" name="email"value="Email">
+            <input type="submit"name="S'abonner">
+          </form>
+        </div>
+
+      </div>
+
   </body>
 </html>
