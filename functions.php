@@ -1,7 +1,7 @@
 <?php
 
 add_action('init', 'add_menu');
-
+add_theme_support( 'custom-header' );
 
 function add_menu()
 {

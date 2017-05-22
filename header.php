@@ -11,7 +11,8 @@
 </head>
 <body>
 
-	<header class="container-fluid">
+	<header class="container-fluid" style="background-image: url('<?php header_image(); ?>'); height: 1000px;">
+	
 		<div class="row">
 			<div class="col-md-2 col-xs-12">
 				<?php dynamic_sidebar('widget_header') ?>
