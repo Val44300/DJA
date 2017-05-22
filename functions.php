@@ -19,11 +19,29 @@ function add_widget()
 
     register_sidebar(array(
 
-        'id' => 'my_custom_zone',
+        'id' => 'widget_footer',
 
         'name' => 'Zone inférieure',
 
         'description' => 'Apparait en bas du site',
+
+        'before_widget' => '<div>',
+
+        'after_widget' => '</div>',
+
+        'before_title' => '<h1>',
+
+        'after_title' => '</h1>'
+
+    ));
+
+        register_sidebar(array(
+
+        'id' => 'widget_header',
+
+        'name' => 'Zone supérieure',
+
+        'description' => 'Apparait en haut du site',
 
         'before_widget' => '<div>',
 

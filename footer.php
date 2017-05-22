@@ -15,7 +15,7 @@
 			</nav>
 			<div class="col-md-offset-2 col-md-2 col-xs-12">
 				<?php
-				dynamic_sidebar('my_custom_zone');
+				dynamic_sidebar('widget_footer');
 				?>
 			</div>
 		</div>

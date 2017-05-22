@@ -14,7 +14,7 @@
 	<header class="container-fluid">
 		<div class="row">
 			<div class="col-md-2 col-xs-12">
-				<img src="http://lorempixel.com/100/100/" alt="logo maison de l'emploi">
+				<?php dynamic_sidebar('widget_header') ?>
 			</div>
 			<div class="col-md-8 col-xs-12 col-centered">
 				<div class="navbar navbar-default">
