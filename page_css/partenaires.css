@@ -2,16 +2,14 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
 }
 .item {
   display: block;
   flex:auto;
   }
-#bloc_page {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-}
-header {
+.header {
   display: inline-block;
   position: fixed;
   top: 0px;
@@ -21,11 +19,23 @@ header {
   margin: auto;
   background-color:hotpink;
 }
-#menu{
-  border: 1px solid black;
-  box-shadow: 2px 2px 2px grey;
+#logo {
+float: left;
+padding-top: 10px;
+padding-left: 10px;
+}
+#menu {
+  float: left;
+  padding-top: 20px;
+  padding-left: 200px;
   font-size: 17px;
   text-align: center;
+}
+#recherche {
+  float: right;
+  margin-right: : 100px;
+  padding-right: 150px;
+  padding-top: 40px;
 }
 li {
     display: inline;
