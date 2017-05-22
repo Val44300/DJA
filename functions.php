@@ -34,25 +34,6 @@ function add_widget()
         'after_title' => '</h1>'
 
     ));
-
-        register_sidebar(array(
-
-        'id' => 'widget_header',
-
-        'name' => 'Zone supérieure',
-
-        'description' => 'Apparait en haut du site',
-
-        'before_widget' => '<div>',
-
-        'after_widget' => '</div>',
-
-        'before_title' => '<h1>',
-
-        'after_title' => '</h1>'
-
-    ));
-
 }
 
 $defaults = array(
@@ -66,3 +47,19 @@ $defaults = array(
     'admin-preview-callback' => ''
 );
 add_theme_support( 'custom-background', $defaults );
+
+add_theme_support( 'custom-logo', array(
+    'height'      => 200,
+    'width'       => 200,
+    'flex-height' => true,
+    'flex-width'  => true,
+    'header-text' => array( 'Le tour du Numérique', 'Logo tour du Numérique' ),
+));
+
+function tour_du_numerique_the_custom_logo() {
+    
+    if ( function_exists( 'the_custom_logo' ) ) {
+        the_custom_logo();
+    }
+
+}
