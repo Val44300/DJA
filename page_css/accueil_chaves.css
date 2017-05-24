@@ -1,0 +1,94 @@
+header {
+	vertical-align: middle;
+	background: url('http://lorempixel.com/1800/900/') no-repeat;
+	height: 900px;
+	position: relative;
+}
+
+.navbar-default {
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+}
+
+.navbar-header .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.titre-principal {
+	margin-top: 15%;
+	color: #ffffff;
+	text-align: center;
+}
+
+.recherche {
+	background: #818386;
+	color: #ffffff;
+	border-radius: 20px;
+	margin-top: 10px;
+	box-shadow: none;
+}
+
+.propulse {
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	border: none;
+}
+
+img.top {
+	 vertical-align: text-top;
+}
+
+section {
+	margin: 10px 0 0 0;
+}
+
+.btn-orange {
+	background: #f9B157;
+	color: #ffffff;
+	border-radius: 20px;
+}
+
+.btn-grey {
+	background: #818386;
+	color: #ffffff;
+	border-radius: 20px;
+}
+
+.banniere img {
+	width: 100%;
+}
+
+.align-right {
+	text-align: right;
+}
+
+footer {
+	margin: 10px 0 0 0;
+	background-color: #ffffff;
+	position: relative;
+}
+
+footer .navbar-default {
+	background-color: #ffffff;
+}
+
+.img-footer {
+	margin: 0 0 0 15px;
+}
+
+.social, footer .navbar {
+	margin-top: 100px;
+}
+
+.social a  {
+	border: none;
+}
+
+.btn-newsletter {
+	margin: 10px 0 10px 0;
+}
+
+.paragraphe-newsletter {
+	margin: 0px 0 0 0;
+}
