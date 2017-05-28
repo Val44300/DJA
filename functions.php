@@ -64,6 +64,9 @@ function tour_du_numerique_the_custom_logo() {
 
 }
 
+add_theme_support( 'post-thumbnails' );
+
 remove_filter( 'the_content', 'wpautop' );
 remove_filter( 'the_excerpt', 'wpautop' );
-remove_filter( ‘the_content’, ‘wptexturize’);
+remove_filter( 'the_content', 'wptexturize');
+
