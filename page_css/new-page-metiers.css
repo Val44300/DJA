@@ -1,0 +1,70 @@
+body{
+	background-color: lightgrey;
+}
+#metiers{
+	background-color : #f9B157;
+	margin : auto;
+	width : 400px;
+	border-radius : 40px;
+}
+h1{
+	text-align : center;
+	color : white;
+}
+#image{
+	display: inline-block;
+    background-color: red;
+    width : 280px;
+    height : 150px;
+    margin-left : 535px;
+    margin-right: 535px;
+    margin-top: 10PX;
+    padding-bottom : 40px;
+    border-radius : 100px;
+}
+p{
+	color : black;
+	padding-bottom : 20px;
+	padding-top : 0px;
+	margin-right : 20px;
+	margin-left : 20px;
+}
+#description{
+	background-color : grey;
+	margin-right : 32px;
+	margin-left : 32px;
+	margin-top: 30px;
+}
+p{
+	text-align : left;
+	margin-right : 100px;
+	margin-left : 100px;
+	padding-bottom : 50px;
+	padding-top : 50px;
+}
+#bouton1{
+	background-color : grey;
+	margin : auto;
+	margin-top: 30px;
+	width : 300px;
+	height : 30px;
+	border-radius : 40px;
+}
+
+#bouton2{
+	background-color : grey;
+	margin : auto;
+	margin-top: 30px;
+	width : 300px;
+	height : 30px;
+	border-radius : 40px;
+}
+a>p{
+	text-align: center;
+	color : white;
+	text-decoration : none;
+	padding-top: 6px;
+}
+a{
+	text-decoration : none;
+}
