@@ -1,16 +1,16 @@
-header {
+.home {
 	vertical-align: middle;
 	background: url('http://lorempixel.com/1800/900/') no-repeat;
 	height: 900px;
 	position: relative;
 }
 
-.navbar-default {
+.home .navbar-default {
 	background-color: rgba(255, 255, 255, 0);
 	border: none;
 }
 
-.navbar-header .navbar-nav > li > a {
+.home .navbar-header .navbar-nav > li > a {
     color: #ffffff;
 }
 
@@ -75,10 +75,6 @@ footer .navbar-default {
 
 .img-footer {
 	margin: 0 0 0 15px;
-}
-
-.social, footer .navbar {
-	margin-top: 100px;
 }
 
 .social a  {
