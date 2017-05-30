@@ -4,27 +4,27 @@
 	<?php
 		$the_query = new WP_Query(array('category_name' => 'Accueil'));
 		setup_postdata( $post );
+		?>
+	<div class="row">
+		<?php
 		while ($the_query->have_posts() ) {
 			$the_query->the_post();
-			
-			?>
-			<div class="row">
-				<h2><?php the_title(); ?></h2>
-				<div class="col-md-8">
+			if (has_post_thumbnail()) {
+				$background_image = get_the_post_thumbnail_url();
+			} else {
+				$background_image = '';
+			}
+			?>		
+				<div class="col-md-6 col-xs-12" style="background: <?php echo "url('" . $background_image . "')"; ?>no-repeat center; background-size: cover; height: 500px;">
+				<!-- pour éviter des blocs de hauteurs différentes -->
+					<h2><?php the_title(); ?></h2>
 					<p><?php the_content(); ?></p>
 				</div>
-				
-				<?php
-				if (has_post_thumbnail())
-					{ ?>
-						<div class="col-md-2">
-						<?php the_post_thumbnail(); ?>
-						</div> <?php
-					} ?>
-			</div>
+		
 			<?php	
-		}
-	?>
+		} ?>
+		</div>
+	
 	</div>
 <div class="container-fluid">
 	<div class="row">
