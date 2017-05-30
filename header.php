@@ -11,7 +11,7 @@
 </head>
 <body>
 
-	<header class="container-fluid" style="background-image: url('<?php header_image(); ?>');">
+	<header>
 	
 		<div class="row">
 			<div class="col-md-2 col-xs-12">

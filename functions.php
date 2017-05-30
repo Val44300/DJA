@@ -34,6 +34,24 @@ function add_widget()
         'after_title' => '</h4>'
 
     ));
+
+        register_sidebar(array(
+
+        'id' => 'widget_header',
+
+        'name' => 'Zone supérieure',
+
+        'description' => 'Apparait en haut du site',
+
+        'before_widget' => '<div>',
+
+        'after_widget' => '</div>',
+
+        'before_title' => '',
+
+        'after_title' => ''
+
+    ));
 }
 
 $defaults = array(
