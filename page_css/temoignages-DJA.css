@@ -1,40 +1,41 @@
 body{
-	background: white
+	background: lightgrey
 }
 #temoignage{
 	background-color : #f9B157;
 	margin : auto;
 	width : 500px;
-	border-radius : 40px;
 }
 #temoignage>h1{
 	color: white;
 	text-align: center;
 }
 #projet{
-	background-color : lightgrey;
+	background-color : grey;
     float : left;
     width : 500px;
-    height : 500px;
+    height : 570px;
     margin-left : 100px;
     margin-right : 20px;
+    margin-bottom : 20px;
     content-top: 40px;
     content-right: 20px;
     padding-bottom : 50px;
 }
 .action{
-	background-color : white;
+	background-color : lightgrey;
 	width : 380px;
 	margin-left : 50px;
     margin-right : 50px;
 }
 #profil{
-	background-color : lightgrey;
+	background-color : grey;
     float : right;
     width : 500px;
-    height : 500px;
+    height : 570px;
     margin-left : 20px;
     margin-right : 100px;
+    margin-bottom : 20px;
     content-top: 40px;
     content-right: 20px;
     padding-bottom : 50px;
@@ -55,7 +56,7 @@ p{
 	padding-bottom : 20px;
 }
 #img{
-	background-color : red;
+	background-color : ;
 	float: left;
 	height : 80px;
 	width : 80px;
@@ -65,10 +66,9 @@ p{
 	border-radius : 200px;
 }
 img{
-	width : 50px;
-	height : 50px;
-	border-radius: 50px;
-	color : red;
+	width : 80px;
+	height : 80px;
+	border-radius : 200px;
 }
 h1{
 	text-align : center;

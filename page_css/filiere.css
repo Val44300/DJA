@@ -1,0 +1,82 @@
+body{
+	background-color: lightgrey;
+}
+#filieres{
+	background-color : #f9B157;
+	margin : auto;
+	width : 500px;
+}
+h1{
+	text-align : center;
+	color : white;
+}
+#image{
+    background-color: red;
+    width : 1285px;
+    height : 150px;
+    position : relative;
+    margin-left : 32px;
+    margin-right : 32px;
+    margin-bottom : 20px;
+    margin-top: 10PX;
+    padding-bottom : 40px;
+}
+img{
+    background-color: red;
+    Position : absolute;
+    width : 1285px;
+    height : 150px;
+    overflow : hidden;
+}
+p{
+	color : black;
+	padding-bottom : 20px;
+	padding-top : 0px;
+	margin-right : 20px;
+	margin-left : 20px;
+}
+#description{
+	background-color : grey;
+	margin-left : 32px;
+    margin-right : 32px;
+    margin-bottom : 5px;
+	margin-top: 30px;
+}
+p{
+	text-align : left;
+	margin-right : 100px;
+	margin-left : 100px;
+	padding-bottom : 50px;
+	padding-top : 50px;
+}
+
+.bouton{
+	background-color : ;
+	margin-left : 420px;
+	margin-bottom : 20px;
+	width : 300px;
+	height : 35px;
+	border-radius : 40px;
+}
+.btn-gris {
+	text-align : center;
+	display : inline-block;
+	background-color : grey;
+	color: white;
+	width : 300px;
+	height : 35px;
+	padding-bottom : 10px;
+	border-radius: 40px;
+	
+}
+
+p>a{
+	text-align : center;
+	color : white;
+	text-decoration : none;
+	padding-top : 6px;
+}
+
+a{
+	text-decoration : none;
+}
