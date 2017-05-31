@@ -1,0 +1,342 @@
+@font-face {
+    font-family: 'montserrat_alternatesblack';
+    src: url('montserratalternates-black-webfont.woff2') format('woff2'),
+         url('montserratalternates-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesbold';
+    src: url('montserratalternates-bold-webfont.woff2') format('woff2'),
+         url('montserratalternates-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesXBd';
+    src: url('montserratalternates-extrabold-webfont.woff2') format('woff2'),
+         url('montserratalternates-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesXLt';
+    src: url('montserratalternates-extralight-webfont.woff2') format('woff2'),
+         url('montserratalternates-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternateslight';
+    src: url('montserratalternates-light-webfont.woff2') format('woff2'),
+         url('montserratalternates-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesmedium';
+    src: url('montserratalternates-medium-webfont.woff2') format('woff2'),
+         url('montserratalternates-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesregular';
+    src: url('montserratalternates-regular-webfont.woff2') format('woff2'),
+         url('montserratalternates-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatessemibold';
+    src: url('montserratalternates-semibold-webfont.woff2') format('woff2'),
+         url('montserratalternates-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesthin';
+    src: url('montserratalternates-thin-webfont.woff2') format('woff2'),
+         url('montserratalternates-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('montserrat-black-webfont.woff2') format('woff2'),
+         url('montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('montserrat-bold-webfont.woff2') format('woff2'),
+         url('montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'andale_mono_mt_stdbold';
+    src: url('andale-mono-mt-std-bold-5923fbb9dcb74-webfont.woff2') format('woff2'),
+         url('andale-mono-mt-std-bold-5923fbb9dcb74-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.home {
+    vertical-align: middle;
+    background: url('images/accueil.png') no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.home .navbar-default {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    width: 900px;
+    margin-top: 30px;
+  
+}
+
+.home .navbar-header .navbar-nav > li > a {
+    color: #ffffff;
+    font-family: Montserrat, light;
+    font-size: 14px;
+    margin-top: 30px;
+    white-space: nowrap;
+ }
+
+
+.logo {
+	width: 180px;
+	height: 168px;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+.titre-principal {
+    margin-top: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Andale Mono MT Std, bold;
+   
+}
+
+.titre-principal h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+}
+
+.titre-principal h2{
+	font-size: 32px;
+	color: #EC0827;
+	letter-spacing: 5px;
+	margin-top: 30px;
+}
+
+.titre-principal h3{
+	font-size: 30px;
+	letter-spacing: 5px;
+	margin-top: 30px;
+}
+
+.recherche {
+    background: #818386;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: none;
+    text-align: center;
+         
+ }
+
+ .propulse {
+    position: absolute;
+    right: 5px;
+    bottom: -20px;
+    border: none;
+}
+
+
+section{
+    
+    display: flex;
+ }
+
+
+
+.accueil-paragraphe{
+	background:url(images/ordinateur.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+}
+
+.section-content {
+	background: url(images/dja.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+	
+}
+
+h2{
+	font-family: Andale Mono MT Std, bold;
+	font-size: 20px;
+	color: #000000;
+}
+
+p{
+	font-family: Montserrat, light;
+	font-size: 12px;
+}
+
+.btn-rouge {
+    background: #EC0827 ;
+    color: #ffffff;
+    font-family: Montserrat, semibold;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+    border-radius: 30px;
+    width: 300px;
+    height: 70px;
+}
+
+.btn-grey {
+    background: #FB9C2F;
+    border-radius: 30px;
+    font-family: Montserrat, light;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 30px;
+    width: 213px;
+    height: 50px;
+}
+
+
+.banniere img {
+    width: 100%;
+}
+
+.btn-orange{
+	background: #FB9C2F;
+    border-radius: 30px;
+    font-family: Montserrat, light;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    position: absolute;
+    bottom: : -10px;
+    right: 15px;
+    width: 170px;
+    height: 50px;
+}
+
+.align-right {
+    text-align: center;
+}
+
+footer {
+    margin: 10px 0 0 0;
+    background-color: #ffffff;
+}
+
+footer .container-fluid{
+	display: flex;
+	flex-direction: column;
+}
+
+footer .navbar-default {
+    background-color: #ffffff;
+}
+
+.img-footer {
+    margin: 0 0 0 15px;
+}
+
+.social a  {
+    border: none;
+}
+
+
+.btn-newsletter {
+    margin: 10px 0 10px 0;
+}
+
+.paragraphe-newsletter {
+    margin: 0px 0 0 0;
+}
