@@ -181,7 +181,7 @@ h1{
 }
 img{
     background-color: red;
-    Position : absolute;
+    position: absolute;
     width : 1285px;
     height : 500px;
     overflow : hidden;
@@ -211,7 +211,6 @@ p{
 }
 
 .bouton{
-	background-color : ;
 	margin-left : 420px;
 	margin-bottom : 20px;
 	width : 300px;

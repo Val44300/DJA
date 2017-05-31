@@ -20,14 +20,15 @@
 										'menu_class' => 'nav navbar-nav'
 					)); ?>
 				</div>	
-			</div>		
+			</div>
+			<div class="col-md-3">
+				<?php dynamic_sidebar('widget_header'); ?>
+			</div>	
 		</div>
 
-		<div class="row">
-			<div class="col-md-2">
-				<?php dynamic_sidebar('widget_header'); ?>
-			</div>
-		</div>
+		
+			
+		
 
 		<div class="titre-principal">
 			<h1><?php bloginfo() ?></h1>

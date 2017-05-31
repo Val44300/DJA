@@ -40,12 +40,21 @@ header {
 	text-align: center;
 }
 
-.recherche {
+#s {
 	background: #818386;
 	color: #ffffff;
 	border-radius: 20px;
 	margin-top: 10px;
 	box-shadow: none;
+}
+
+.searchform
+{
+	margin: 10px 0 0 0;
+}
+
+.screen-reader-text {
+	display: none;
 }
 
 .propulse {
@@ -71,10 +80,15 @@ section {
 	background-color: #dcdddd;
 }
 
-.btn-orange, .widget_wysija input[type="submit"] {
+.btn-orange, .widget_wysija input[type="submit"], #searchsubmit {
 	background: #f9B157;
 	color: #ffffff;
 	border-radius: 20px;
+}
+
+#searchsubmit {
+	border: none;
+	height: 30px;
 }
 
 .btn-grey {
