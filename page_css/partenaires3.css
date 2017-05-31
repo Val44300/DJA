@@ -1,0 +1,81 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 10px;
+  background-color: #ebe9e7;
+  text-align: center;
+}
+[class*="col-"], footer, {
+  background-color: #ebe9e7;
+  text-align: center;
+}
+.navbar {
+text-align: center;
+margin: 10px;
+}
+#en_tete {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+#menu {
+margin-top: 10px;
+padding-top: 10px;
+}
+section {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    h2 {
+      text-align: center;
+    }
+    h3, h4 {
+      font-size: 1.250em;
+      text-align: center;
+    }
+}
+.part {
+  border: 2px solid #C12040;
+  border-radius: 60px;
+  width: 600px;
+  height: 200px;
+  margin: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .part {
+      border: 2px solid #C12040;
+      border-radius: 60px;
+      width: 350px;
+      height: 150px;
+      margin: 5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .part {
+      border: 2px solid #C12040;
+      border-radius: 50px;
+      width: 320px;
+      height: 150px;
+      margin: 5px;
+    }
+}
+
+footer {
+  border: 0;
+  }
+.reseaux {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  font-size: 1.875em;
+}
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
