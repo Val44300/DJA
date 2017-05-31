@@ -5,11 +5,13 @@ Author URI:
 Description: Un theme pour le tour du numérique
 */
 
-
-
 body {
 	margin: auto;
 }
+
+/*
+Header
+*/
 
 header {
 	height: 1000px;
@@ -69,7 +71,7 @@ section {
 	background-color: #dcdddd;
 }
 
-.btn-orange {
+.btn-orange, .widget_wysija input[type="submit"] {
 	background: #f9B157;
 	color: #ffffff;
 	border-radius: 20px;
@@ -89,8 +91,11 @@ section {
 	text-align: right;
 }
 
+/*
+Footer
+*/
+
 footer {
-	margin: 10px 0 0 0;
 	background-color: #ffffff;
 	position: relative;
 }
@@ -99,20 +104,47 @@ footer .navbar-default {
 	background-color: #ffffff;
 }
 
-.img-footer {
-	margin: 0 0 0 15px;
-}
-
 .social a  {
 	border: none;
+
 }
 
 .btn-newsletter {
 	margin: 10px 0 10px 0;
 }
 
-.paragraphe-newsletter {
-	margin: 0px 0 0 0;
+.widget_wysija{
+	display: flex;
+}
+
+@media all and (max-width: 768px) {
+	.widget_wysija {
+		flex-direction: column;
+		align-items: center;
+	}	
+
+	.wysija-paragraph {
+		padding: 0 0 10px 0;
+	}
+
+	.widget_wysija input[type="submit"] {
+		width: 33%;
+    	height: 25px;
+	}
+}
+
+
+.wysija-paragraph {
+	margin: 0 0 0 10px;
+}
+
+.widget_wysija input[type="submit"] {
+	margin: 0 0 0 10px;
+	border: none;
+}
+
+.formErrorContent {
+ background: orange !important;
 }
 
 .navbar-default {
@@ -138,10 +170,10 @@ color: #070707;
 	width: 100%;
 }
 
-
 /*
 programme des animations
 */
+
 .animation {
 	margin: 10px 10px 30px 10px;
 	height: 80px;
