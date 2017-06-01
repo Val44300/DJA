@@ -11,7 +11,7 @@
 </head>
 <body>
 
-	<header>
+	<header class="container-fluid">
 	
 		<div class="row">
 			<div class="col-md-2 col-xs-12">
