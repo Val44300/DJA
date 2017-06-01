@@ -15,7 +15,7 @@
 				$background_image = '';
 			}
 			?>		
-				<div class="col-md-6 col-xs-12" style="background: <?php echo "url('" . $background_image . "')"; ?>no-repeat center; background-size: cover; height: 500px;">
+				<div class="col-md-6 col-xs-12" style="background: <?php echo "url('" . $background_image . "')"; ?>no-repeat; background-size: cover; height: 500px;">
 				<!-- pour éviter des blocs de hauteurs différentes -->
 					<h2><?php the_title(); ?></h2>
 					<?php the_content(); ?>

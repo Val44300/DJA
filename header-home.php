@@ -9,7 +9,7 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<header class="container-fluid home" style="background-image: url('<?php header_image(); ?>');">
+	<header class="container-fluid home" style="background-image: url('<?php header_image(); ?>'); background-size: cover;">
 		<div class="row">
 			<div class="col-md-2 col-xs-12">
 				<?php tour_du_numerique_the_custom_logo() ?>
@@ -32,5 +32,6 @@
 			<p>Nantes</p>
 			<p><a href="#" class="btn btn-rouge btn-lg">DEMARRER LE TOUR</a></p>
 		</div>
-		<p class="align-right propulse">Propulsé par <img src="http://localhost/wp-test/wp-content/themes/DJA/logoMDE.gif" class="top" alt="logo"></p>
+		<p class="propulse"><span class="bas">Propulsé par </span><img src="http://localhost/wp-test/wp-content/themes/DJA/images/maison.png" class="top" alt="logo">
+		</p>
 	</header>
