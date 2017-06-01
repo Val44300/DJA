@@ -95,10 +95,16 @@ section {
 	background-color: #dcdddd;
 }
 
-.btn-orange, .widget_wysija input[type="submit"], #searchsubmit {
+.btn-orange, .widget_wysija input[type="submit"], #searchsubmit, .wpcf7-submit {
 	background: #f9B157;
 	color: #ffffff;
 	border-radius: 30px;
+}
+
+.wpcf7-submit {
+	border: none;
+	width: 100px;
+	font-size: 16px;
 }
 
 .btn-lg {
@@ -262,4 +268,14 @@ programme des animations
 
 .animation-link {
 	text-align: right;
+}
+
+.align-bottom {
+	display: flex;
+}
+
+.align-bottom-item {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 10px 0;
 }
