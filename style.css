@@ -234,40 +234,23 @@ programme des animations
 */
 
 .animation {
-	margin: 10px 10px 30px 10px;
-	height: 80px;
+	background: #ffeb8e;
+	padding: 0 5px 5px 5px;
+	border-radius: 20px;
+	margin: 5px;
 }
 
-.animation .animation-header {
-	text-align: center;
-	background-color: #b0b1b1;
-	color: #f98228;
+.event-date {
+	color: #f0363c;
+	font-weight: bold;
 }
 
-.animation .animation-body {
-	background-color: #e5dede;
-	margin: -10px 0 0 0;
-	padding: 0 0 0 10px;
-}
-
-.animation-body h3 {
-	text-align: center;
-}
-
-.animation-body a {
-	background-color: #f9b157;
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	text-align: center;
-	color: #533817;
-	margin: 10px 10px 10px 10px;
-	box-shadow: 5px 5px 5px #505050;
-}
-
-.animation-link {
+.event-link {
 	text-align: right;
+}
+
+.event-link a {
+	color: #40434e;
 }
 
 .align-bottom {
@@ -278,4 +261,11 @@ programme des animations
   display: flex;
   align-items: flex-end;
   margin: 0 0 10px 0;
+}
+
+@media all and (max-width: 768px) {
+	.event-title, .event-date, .event-link {
+		text-align: center;
+	}
+
 }
