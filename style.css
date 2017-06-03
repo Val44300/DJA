@@ -238,23 +238,36 @@ programme des animations
 */
 
 .animation {
-	background: #ffeb8e;
-	padding: 0 5px 5px 5px;
-	border-radius: 20px;
-	margin: 5px;
+	margin-bottom: 20px;
+}
+.animation-flex {
+	display: flex;
+	box-shadow: 5px 5px 5px black;
 }
 
-.event-date {
-	color: #f0363c;
-	font-weight: bold;
+.animation-date {
+	text-align: center;
+	color: #ffffff;
+	font-size: 2em;
 }
 
 .event-link {
 	text-align: right;
 }
 
-.event-link a {
-	color: #40434e;
+.animation-body {
+	width: 100%;
+}
+
+.animation-body p {
+	text-align: right;
+}
+
+.event-link {
+	color: #ffffff;
+	background: #808080;
+	border-radius: 50%;
+	font-size: 1.5em;
 }
 
 .align-bottom {
