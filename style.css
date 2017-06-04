@@ -262,6 +262,21 @@ programme des animations
   align-items: flex-end;
   margin: 0 0 10px 0;
 }
+/*
+.em-booking {
+	display: flex;
+	flex-direction: column;
+}
+*/
+.em-booking-login {
+	width: 100%;
+}
+
+div .em-booking-login {
+    border: none;
+    margin: 0;
+    padding: 10px 10px 10px 20px;
+}
 
 @media all and (max-width: 768px) {
 	.event-title, .event-date, .event-link {
