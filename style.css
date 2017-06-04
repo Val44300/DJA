@@ -95,6 +95,10 @@ section {
 	background-color: #dcdddd;
 }
 
+.alignright {
+	float: right;
+}
+
 .btn-orange, .widget_wysija input[type="submit"], #searchsubmit, .wpcf7-submit {
 	background: #f9B157;
 	color: #ffffff;
@@ -117,7 +121,7 @@ section {
 }
 
 .btn-md {
-    padding-top: 10px;
+    padding-top: 12px;
     margin-top: 30px;
     width: 213px;
     height: 50px;
@@ -234,23 +238,36 @@ programme des animations
 */
 
 .animation {
-	background: #ffeb8e;
-	padding: 0 5px 5px 5px;
-	border-radius: 20px;
-	margin: 5px;
+	margin-bottom: 20px;
+}
+.animation-flex {
+	display: flex;
+	box-shadow: 5px 5px 5px black;
 }
 
-.event-date {
-	color: #f0363c;
-	font-weight: bold;
+.animation-date {
+	text-align: center;
+	color: #ffffff;
+	font-size: 2em;
 }
 
 .event-link {
 	text-align: right;
 }
 
-.event-link a {
-	color: #40434e;
+.animation-body {
+	width: 100%;
+}
+
+.animation-body p {
+	text-align: right;
+}
+
+.event-link {
+	color: #ffffff;
+	background: #808080;
+	border-radius: 50%;
+	font-size: 1.5em;
 }
 
 .align-bottom {
@@ -262,12 +279,12 @@ programme des animations
   align-items: flex-end;
   margin: 0 0 10px 0;
 }
-/*
+
 .em-booking {
 	display: flex;
 	flex-direction: column;
 }
-*/
+
 .em-booking-login {
 	width: 100%;
 }
@@ -276,6 +293,17 @@ div .em-booking-login {
     border: none;
     margin: 0;
     padding: 10px 10px 10px 20px;
+}
+
+div.em-booking-login {
+    border: none !important;
+    margin: 0 !important;
+   
+}
+
+div.em-booking-login label {
+    display: inline-block;
+    width: 100% !important;
 }
 
 @media all and (max-width: 768px) {
