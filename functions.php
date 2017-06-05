@@ -87,4 +87,13 @@ add_theme_support( 'post-thumbnails' );
 remove_filter( 'the_content', 'wpautop' );
 remove_filter( 'the_excerpt', 'wpautop' );
 remove_filter( 'the_content', 'wptexturize');
-
+*/
+function bweb_event_manager_booking_fields( $located, $template_name, $load, $args ){    
+    if ( $template_name == 'forms/bookingform/booking-fields.php' ) {
+        if ( file_exists( get_stylesheet_directory() . '/events/booking-fields.php') ) {
+            $located = get_stylesheet_directory() . '/events/booking-fields.php';
+        }
+    }
+    return $located;
+}
+add_filter( 'em_locate_template', 'bweb_event_manager_booking_fields', 9, 4 );
