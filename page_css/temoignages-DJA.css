@@ -13,9 +13,9 @@ body{
 #projet{
 	background-color : grey;
     float : left;
-    width : 36.2%;
+    width : 500px;
     height : 570px;
-    margin-left : 8%;
+    margin-left : 6%;
     margin-right : 4%;
     margin-bottom : 20PX;
     content-top: 40px;
@@ -31,10 +31,10 @@ body{
 #profil{
 	background-color : grey;
     float : right;
-    width : 36.2%;
+    width : 500px;
     height : 570px;
     margin-left : 4%;
-    margin-right : 8%;
+    margin-right : 6%;
     margin-bottom : 20px;
     content-top: 40px;
     content-right: 20px;
