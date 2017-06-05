@@ -28,11 +28,9 @@ img{
     height : 100%;
     overflow : hidden;
 }
-
 .video{
 	text-align: center;
 }
-
 p{
 	color : black;
 	padding-bottom : 20px;
@@ -74,14 +72,12 @@ p{
 	border-radius: 40px;
 	
 }
-
 p>a{
 	text-align : center;
 	color : white;
 	text-decoration : none;
 	padding-top : 6px;
 }
-
 a{
 	text-decoration : none;
 }
