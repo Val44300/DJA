@@ -4,7 +4,6 @@
          url('montserratalternates-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -16,7 +15,6 @@
          url('montserratalternates-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -28,7 +26,6 @@
          url('montserratalternates-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -40,7 +37,6 @@
          url('montserratalternates-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -52,7 +48,6 @@
          url('montserratalternates-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -64,7 +59,6 @@
          url('montserratalternates-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -76,7 +70,6 @@
          url('montserratalternates-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -88,7 +81,6 @@
          url('montserratalternates-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -100,7 +92,6 @@
          url('montserratalternates-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -112,7 +103,6 @@
          url('montserrat-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -124,7 +114,6 @@
          url('montserrat-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -136,7 +125,6 @@
          url('montserrat-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -145,7 +133,6 @@
          url('andale-mono-mt-std-bold-5923fbb9dcb74-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -210,8 +197,7 @@
     border-radius: 20px;
     margin-top: 10px;
     box-shadow: none;
-    text-align: center;
-         
+    text-align: center;   
  }
 
  .propulse {

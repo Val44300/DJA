@@ -30,8 +30,8 @@
 
 		<div class="titre-principal">
 			<h1><?php bloginfo() ?></h1>
-			<p>Du 19 au 29 septembre 2017</p>
-			<p>Nantes</p>
+			<h2>Du 19 au 29 septembre 2017</h2>
+			<h3>Nantes</h3>
 			<p><a href="#" class="btn btn-rouge btn-lg">DEMARRER LE TOUR</a></p>
 		</div>
 		<p class="propulse"><span class="bas">Propulsé par </span><img src="http://localhost/wp-test/wp-content/themes/DJA/images/maison.png" class="top" alt="logo">

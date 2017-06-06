@@ -2,8 +2,114 @@
 Theme Name: Theme Tour du Numerique
 Author: Groupe DJA
 Author URI: 
-Description: Un theme pour le tour du numérique
+Description: Un theme pour le tour du numÃ©rique
 */
+
+@font-face {
+    font-family: 'montserrat_alternatesblack';
+    src: url('montserratalternates-black-webfont.woff2') format('woff2'),
+         url('montserratalternates-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_alternatesbold';
+    src: url('montserratalternates-bold-webfont.woff2') format('woff2'),
+         url('montserratalternates-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_alternatesXBd';
+    src: url('montserratalternates-extrabold-webfont.woff2') format('woff2'),
+         url('montserratalternates-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'montserrat_alternatesXLt';
+    src: url('montserratalternates-extralight-webfont.woff2') format('woff2'),
+         url('montserratalternates-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_alternateslight';
+    src: url('montserratalternates-light-webfont.woff2') format('woff2'),
+         url('montserratalternates-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_alternatesmedium';
+    src: url('montserratalternates-medium-webfont.woff2') format('woff2'),
+         url('montserratalternates-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_alternatesregular';
+    src: url('montserratalternates-regular-webfont.woff2') format('woff2'),
+         url('montserratalternates-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_alternatessemibold';
+    src: url('montserratalternates-semibold-webfont.woff2') format('woff2'),
+         url('montserratalternates-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_alternatesthin';
+    src: url('montserratalternates-thin-webfont.woff2') format('woff2'),
+         url('montserratalternates-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('montserrat-black-webfont.woff2') format('woff2'),
+         url('montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('montserrat-bold-webfont.woff2') format('woff2'),
+         url('montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'andale_mono_mt_stdbold';
+    src: url('andale-mono-mt-std-bold-5923fbb9dcb74-webfont.woff2') format('woff2'),
+         url('andale-mono-mt-std-bold-5923fbb9dcb74-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
 	margin: auto;
@@ -39,6 +145,36 @@ header {
 	text-align: center;
 }
 
+.titre-principal h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+}
+
+.titre-principal h2{
+	font-size: 32px;
+	color: #EC0827;
+	letter-spacing: 5px;
+	margin-top: 30px;
+}
+
+.titre-principal h3{
+	font-size: 30px;
+	letter-spacing: 5px;
+	margin-top: 30px;
+}
+
+h2 { 
+	font-family: Andale Mono MT Std, bold;
+	font-size: 24px;
+	color: #000000;
+}
+
+
+p{
+	font-family: Montserrat, light;
+	font-size: 14px;
+}
+
 /*
 Champ de recherche
 */
@@ -46,9 +182,15 @@ Champ de recherche
 #s {
 	background: #818386;
 	color: #ffffff;
+	border: none;
 	border-radius: 20px;
 	margin-top: 10px;
 	box-shadow: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .searchform
@@ -61,7 +203,7 @@ Champ de recherche
 }
 
 /*
-Logo en bas à droite
+Logo en bas Ã  droite
 */
 
 .propulse {
@@ -242,7 +384,7 @@ programme des animations
 }
 .animation-flex {
 	display: flex;
-	box-shadow: 5px 5px 5px black;
+	box-shadow: 5px 5px 5px rgba(90, 90, 90, 0.3);
 }
 
 .animation-date {
@@ -251,12 +393,9 @@ programme des animations
 	font-size: 2em;
 }
 
-.event-link {
-	text-align: right;
-}
-
 .animation-body {
 	width: 100%;
+	padding: 0 0 0 10px;
 }
 
 .animation-body p {
@@ -266,8 +405,18 @@ programme des animations
 .event-link {
 	color: #ffffff;
 	background: #808080;
-	border-radius: 50%;
+	border-radius: 20px;
 	font-size: 1.5em;
+	display: inline-block;
+	text-align: center;
+	margin: 0 5px 0 0;
+	text-align: right;
+	padding: 0 5px 0 5px;
+}
+
+.event-link:hover {
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .align-bottom {
