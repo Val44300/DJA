@@ -9,4 +9,4 @@
 	</div>
 
 <?php
- get_footer(); 
+ get_footer();

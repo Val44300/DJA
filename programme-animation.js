@@ -1,7 +1,7 @@
 $(function() {
 
 	var i =0;
-	
+
 	$('.animation').each(function() {
         console.log(i)
 		if (i % 2 === 0) {
@@ -10,7 +10,6 @@ $(function() {
 		} else {
 			$(this).addClass('col-md-offset-5'); 
         }
-
         i++
 	});
 }); 
