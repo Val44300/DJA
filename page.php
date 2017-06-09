@@ -8,7 +8,7 @@ while (have_posts()) :
 	 	</div>
 	 	<?php
 	 }
-
+	 
 	 the_post();
 	 the_content();
 endwhile; ?>
