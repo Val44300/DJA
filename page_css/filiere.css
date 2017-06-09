@@ -1,22 +1,20 @@
 body{
-	background-color: lightgrey;
+	background-color: white;
 }
-#filieres{
-	background-color : #f9B157;
+#DJA-filiere-filieres{
 	margin : auto;
-	width : 500px;
+	width : 600px;
 }
-h1{
+h2{
 	text-align : center;
-	color : white;
+	font-size : 40px;
+	color : #FB9C2F;
 }
-#image{
+#DJA-filiere-image{
     background-color: red;
-    width : 95%;
-    height : 120px;
+    width : 100%;
+    height : 410px;
     position : relative;
-    margin-left : 2.5%;
-    margin-right : 2.5%;
     margin-bottom : 2%;
     margin-top: 1%;
     padding-bottom : 4%;
@@ -28,7 +26,7 @@ img{
     height : 100%;
     overflow : hidden;
 }
-.video{
+.DJA-filiere-video{
 	text-align: center;
 }
 p{
@@ -38,46 +36,34 @@ p{
 	margin-right : 20px;
 	margin-left : 20px;
 }
-#description{
-	background-color : grey;
+#DJA-filiere-description{
 	margin-left : 2.5%;
     margin-right : 2.5%;
-    margin-bottom : 5%;
+    margin-bottom : 2.5%;
 	margin-top: 3%;
 }
 p{
 	text-align : left;
-	margin-right : 8%;
-	margin-left : 8%;
-	padding-bottom : 4%;
-	padding-top : 4%;
 }
 
-.bouton{
-	background-color : ;
-	margin-left : 38%;
-	margin-bottom : 20px;
-	width : 300px;
-	height : 35px;
-	border-radius : 40px;
-}
-.btn-gris {
+.DJA-filiere-btn-gris{
 	text-align : center;
 	display : inline-block;
-	background-color : grey;
+	background-color : #8D8D8D;
+	border-color : grey;
 	color: white;
-	width : 300px;
-	height : 35px;
-	padding-bottom : 10px;
+	width : 213px;
+	height : 40px;
+	margin-left : 60px;
+	margin-bottom : 300px;
+	margin-right : 60px;
+	margin-top : 20px;
+	padding-bottom : 8px;
 	border-radius: 40px;
-	
 }
-p>a{
+a{
 	text-align : center;
 	color : white;
 	text-decoration : none;
-	padding-top : 6px;
-}
-a{
-	text-decoration : none;
+	margin-bottom : 10px;
 }
