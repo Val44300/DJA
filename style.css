@@ -231,8 +231,8 @@ header {
 
 h2 { 
 	font-family: andalemono, sans-serif;
-	font-size: 24px;
-	color: #000000;
+	font-size: 30px;
+	color: #FB9C2F;
 }
 
 
@@ -297,6 +297,10 @@ img.top {
 
 section {
 	margin: 10px 0 0 0;
+}
+
+.content {
+	margin: 0 0 0 20px;
 }
 
 .bkg-lightgrey {
