@@ -4,6 +4,7 @@
          url('montserratalternates-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -15,6 +16,7 @@
          url('montserratalternates-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -26,6 +28,7 @@
          url('montserratalternates-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -37,6 +40,7 @@
          url('montserratalternates-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -48,6 +52,7 @@
          url('montserratalternates-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -59,6 +64,7 @@
          url('montserratalternates-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -70,6 +76,7 @@
          url('montserratalternates-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -81,6 +88,7 @@
          url('montserratalternates-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -92,6 +100,7 @@
          url('montserratalternates-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -103,6 +112,7 @@
          url('montserrat-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -114,6 +124,7 @@
          url('montserrat-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -125,6 +136,7 @@
          url('montserrat-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
@@ -133,6 +145,7 @@
          url('andale-mono-mt-std-bold-5923fbb9dcb74-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -142,6 +155,7 @@
     background-size: cover;
     height: 100vh;
     position: relative;
+
 }
 
 .home .navbar-default {
@@ -153,35 +167,30 @@
     color: #000000;
     font-family: Montserrat, light;
     font-size: 14px;
+    position: relative;
+    margin-right: 5px;
+    margin-top: 40px;
  }
 
 
-.logo {
-	width: 180px;
-	height: 168px;
-	margin-top: 10px;
-	margin-left: 10px;
-
-}
-
 .titre-principal {
-    margin-top: 30px;
+    margin-top: 15px;
     color: #ffffff;
     text-align: center;
     font-family: Andale Mono MT Std, bold;
    
 }
 
-.titre-principal h1{
-	font-size: 40px;
-	letter-spacing: 4px;
+.titre-principal img{
+	width: 700px;
+
 }
 
 .titre-principal h2{
 	font-size: 32px;
 	color: #EC0827;
 	letter-spacing: 5px;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .titre-principal h3{
@@ -197,7 +206,9 @@
     border-radius: 20px;
     margin-top: 10px;
     box-shadow: none;
-    text-align: center;   
+    text-align: center;
+    margin-right: : 60px;
+         
  }
 
  .propulse {
@@ -214,20 +225,22 @@ section{
  }
 
 
-
 .accueil-paragraphe{
-	background:url(images/ordinateur.jpg) no-repeat;
 	background-size: cover;
 	position: relative;
 	text-align: center;
+    margin-left: 30px;
+    font-family: Montserrat, light;
+    font-size: 12px;
 }
 
 .section-content {
-	background: url(images/dja.jpg) no-repeat;
 	background-size: cover;
 	position: relative;
 	text-align: center;
-	
+    margin-left: 80px;
+    font-family: Montserrat, light;
+    font-size: 12px;
 }
 
 h2{
@@ -261,11 +274,15 @@ p{
 
 
 .banniere {
-    width: 100%;
-    height: 300px;
+    width: 800px;
+    height: 600px;
     position: relative;
 }
 
+.banniere img{
+    width: 800px;
+    height: 400px;
+}
 .banniere p {
     position: absolute;
     bottom: 0;
@@ -316,6 +333,10 @@ footer .navbar-default {
     background-color: #ffffff;
 }
 
+ul .navbar.nav{
+	text-align: center;
+}
+
 .img-footer {
     margin: 0 0 0 15px;
 }
@@ -327,7 +348,11 @@ footer .navbar-default {
 
 .btn-newsletter {
     margin: 10px 0 10px 0;
+    font-family: Montserrat, regular;
+    font-size: 14px;
+   color: #ffffff;
 }
+
 
 .paragraphe-newsletter {
     margin: 0px 0 0 0;
