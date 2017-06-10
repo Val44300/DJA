@@ -52,24 +52,26 @@ body{
     content-right: 20px;
     padding-bottom : 50px;
 }
+
+.projets {
+	width : 92%;
+	margin-right : 50px;
+	margin-left : 50px;
+	padding-top: 10px;
+}
+
 #DJA-DJA-projet1{
 	background-color : #D13656;
-	width : 92%;
-	margin-right : 50px;
-	margin-left : 50px;
 }
+
 #DJA-DJA-projet2{
 	background-color : #FB9C2F;
-	width : 92%;
-	margin-right : 50px;
-	margin-left : 50px;
 }
+
 #DJA-DJA-projet3{
 	background-color : #5252D6;
-	width : 92%;
-	margin-right : 50px;
-	margin-left : 50px;
 }
+
 .DJA-DJA-A{
 	background-color : ;
 	float: left;
