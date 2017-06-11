@@ -1,0 +1,429 @@
+@font-face {
+    font-family: 'montserrat_alternatesblack';
+    src: url('montserratalternates-black-webfont.woff2') format('woff2'),
+         url('montserratalternates-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesbold';
+    src: url('montserratalternates-bold-webfont.woff2') format('woff2'),
+         url('montserratalternates-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesXBd';
+    src: url('montserratalternates-extrabold-webfont.woff2') format('woff2'),
+         url('montserratalternates-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesXLt';
+    src: url('montserratalternates-extralight-webfont.woff2') format('woff2'),
+         url('montserratalternates-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternateslight';
+    src: url('montserratalternates-light-webfont.woff2') format('woff2'),
+         url('montserratalternates-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesmedium';
+    src: url('montserratalternates-medium-webfont.woff2') format('woff2'),
+         url('montserratalternates-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesregular';
+    src: url('montserratalternates-regular-webfont.woff2') format('woff2'),
+         url('montserratalternates-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatessemibold';
+    src: url('montserratalternates-semibold-webfont.woff2') format('woff2'),
+         url('montserratalternates-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat_alternatesthin';
+    src: url('montserratalternates-thin-webfont.woff2') format('woff2'),
+         url('montserratalternates-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('montserrat-black-webfont.woff2') format('woff2'),
+         url('montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('montserrat-bold-webfont.woff2') format('woff2'),
+         url('montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'andale_mono_mt_stdbold';
+    src: url('andale-mono-mt-std-bold-5923fbb9dcb74-webfont.woff2') format('woff2'),
+         url('andale-mono-mt-std-bold-5923fbb9dcb74-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.home {
+    vertical-align: middle;
+    background: url('../images/accueil.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.home .navbar-default {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    display: flex;
+}
+
+.home .navbar-header .navbar-nav > li > a {
+    color: #000000;
+    font-family: Montserrat, light;
+    font-size: 14px;
+    position: relative;
+    margin-right: 5px;
+    margin-top: 40px;
+ }
+
+
+.titre-principal {
+    margin-top: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Andale Mono MT Std, bold;
+
+}
+
+.titre-principal img{
+	width: 700px;
+	margin-left: 290px;
+
+
+}
+
+.titre-principal h2{
+	font-size: 32px;
+	color: #EC0827;
+	letter-spacing: 5px;
+	margin-top: 20px;
+}
+
+.titre-principal h3{
+	font-size: 30px;
+	letter-spacing: 5px;
+	margin-top: 30px;
+}
+
+.recherche {
+    background: #818386;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: none;
+    text-align: center;
+    margin-right: : 60px;
+
+ }
+
+ .propulse {
+    position: absolute;
+    right: 5px;
+    bottom: -20px;
+    border: none;
+}
+
+
+section{
+
+    display: flex;
+ }
+
+
+.accueil-paragraphe{
+	background-size: cover;
+	position: relative;
+	text-align: center;
+    margin-left: 30px;
+    font-family: Montserrat, light;
+    font-size: 12px;
+}
+
+.section-content {
+	background-size: cover;
+	position: relative;
+	text-align: center;
+    margin-left: 80px;
+    font-family: Montserrat, light;
+    font-size: 12px;
+}
+
+h2{
+	font-family: Andale Mono MT Std, bold;
+	font-size: 20px;
+	color: #000000;
+}
+
+p{
+	font-family: Montserrat, light;
+	font-size: 12px;
+}
+
+.btn-rouge {
+    background: #EC0827 ;
+    color: #ffffff;
+    font-family: Montserrat, semibold;
+    text-align: center;
+}
+
+.btn-grey {
+    background: #818386;
+    border-radius: 30px;
+    font-family: Montserrat, light;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+
+.banniere {
+    width: 100%;
+    height: 600px;
+    border: 1px black solid;
+    position: relative;
+}
+
+.banniere img{
+	background-size: cover;
+	width: 800px;
+	height: 400px;
+   
+}
+.banniere p {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+
+.btn-orange{
+	background: #FB9C2F;
+    border-radius: 30px;
+    font-family: Montserrat, light;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.btn-lg {
+    padding-top: 20px;
+    margin-top: 50px;
+    border-radius: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 18px;
+}
+
+.btn-md {
+    padding-top: 10px;
+    margin-top: 30px;
+    width: 213px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.align-right {
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
+.partenaires {
+  
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  padding: 0;
+  position: relative;
+}
+.titre_partenaires {
+  text-align: center;
+  padding: 0;
+}
+
+img { /*logos partenaires */
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  }
+
+ .logo_p{
+ 	width: 300%;
+ 	position: relative;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ 	padding-top: 20px;
+ 	display: flex;
+ }
+footer {
+	display: flex;
+    margin: 10px 0 0 0;
+    background-color: #ffffff;
+}
+
+footer .container-fluid{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 400px;
+	align-items: stretch;
+	
+
+}
+
+footer .navbar-default {
+    background-color: #ffffff;
+    
+
+}
+
+ul,li{
+	text-align: center;
+	margin-top: 70px;
+	font-family: Montserrat, bold;
+	font-size: 14px;
+	color: #000000;
+}
+
+form{
+	font-family: Montserrat, bold;
+	font-size: 14px;
+	color: #000000;
+}
+
+.img-footer {
+    margin: 0 0 0 15px;
+}
+
+.social a  {
+    border: none;
+}
+
+
+.btn-newsletter {
+    margin: 10px 0 10px 0;
+    font-family: Montserrat, regular;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.paragraphe-newsletter {
+    margin: 0px 0 0 0;
+}
+
+.align-bottom {
+    display: flex;
+}
+
+.align-bottom-item {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 10px 0;
+}
+
+.align-top-item {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 10px 0;
+}
