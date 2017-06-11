@@ -8,7 +8,8 @@ body{
 h2{
 	text-align : center;
 	font-size : 40px;
-	color : #FB9C2F;
+	color: #FB9C2F;
+	margin-bottom : 40px;
 }
 #DJA-filiere-image{
     background-color: red;
