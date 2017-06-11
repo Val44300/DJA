@@ -15,7 +15,7 @@ get_header();
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-3 col-sm-6 col-xs-12 dja bkg-lightgrey">
+			<div class="col-md-3 col-sm-4 col-xs-6 dja bkg-lightgrey">
 				<h3>Témoignages</h3>
 				<?php $the_query = new WP_Query(array('category_name' => 'Temoignages'));
 				setup_postdata( $post );

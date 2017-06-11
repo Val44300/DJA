@@ -229,18 +229,45 @@ header {
 	margin-top: 30px;
 }
 
+h1 {
+	font-family: andalemono, sans-serif;
+}
+
 h2 { 
 	font-family: andalemono, sans-serif;
 	font-size: 30px;
 	color: #FB9C2F;
+	margin: 20px 0 20px 0;
 }
 
+h3 {
+	font-family: andalemono, sans-serif;
+	margin: 20px 0 20px 0;
+}
+
+h4 {
+	font-family: andalemono, sans-serif;
+}
+
+h5 {
+	font-family: andalemono, sans-serif;
+	text-decoration: underline;
+	margin: 20px 0 20px 0;
+}
 
 p {
-	font-family: MontserratLight;
+	font-family: MontserratLight, sans-serif;
 	font-size: 14px;
 	margin: 10px 0 10px 0;
 	padding: 0 10px 0 10px;
+}
+
+ul li {
+	font-family: MontserratLight, sans-serif;
+}
+
+input[type="submit"] {
+	font-family: MontserratLight, sans-serif;
 }
 
 .image-page {
@@ -307,11 +334,15 @@ section {
 	background-color: #e9e9ea;
 }
 
-.btn-rouge {
+.btn-rouge, .widget_wysija input[type="submit"] {
     background: #EC0827 ;
     color: #ffffff;
     font-family: Montserrat, semibold;
     text-align: center;
+}
+
+.widget_wysija input[type="submit"] {
+	border-radius: 30px;
 }
 
 .bkg-grey {
@@ -350,7 +381,7 @@ section {
 	float: right;
 }
 
-.btn-orange, .widget_wysija input[type="submit"], #searchsubmit, .wpcf7-submit {
+.btn-orange, #searchsubmit, .wpcf7-submit {
 	background: #f9B157;
 	color: #ffffff;
 	border-radius: 30px;
