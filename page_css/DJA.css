@@ -6,8 +6,10 @@ body{
 	width : 500px;
 }
 #DJA-DJA-DJA>h2{
-	color : #FB9C2F;
-	text-align: center;
+	text-align : center;
+	font-size : 40px;
+	color: #FB9C2F;
+	margin-bottom : 40px;
 }
 #DJA-DJA-programme0{
 	width : 88%;
