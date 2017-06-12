@@ -290,6 +290,21 @@ input[type="submit"] {
 }
 
 /*
+Formulaire de contact
+*/
+#contact {
+	display: flex;
+	justify-content: space-around;
+}
+
+@media all and (max-width: 768px) {
+	.wpcf7-form-control {
+	width: 50%;
+	}
+}
+
+
+/*
 Champ de recherche
 */
 
