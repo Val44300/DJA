@@ -717,3 +717,9 @@ div.em-booking-login label {
 		text-align: center;
 	}
 }
+
+@media all and (max-width: 768px) {
+	iframe {
+		width: 100%;
+	}
+}
