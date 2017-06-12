@@ -328,6 +328,7 @@ section {
 
 .content {
 	margin: 0 0 0 20px;
+	width: 90%;
 }
 
 .bkg-lightgrey {
@@ -429,6 +430,14 @@ section {
 	text-align: right;
 }
 
+.logo-p { /*logos partenaires */
+  margin-top: 25px;
+  max-width: 90%;
+  height: 90%;
+  display: block;
+  width: 50%;
+}
+
 /*
 Footer
 */
@@ -455,7 +464,7 @@ footer .navbar-default {
 	display: flex;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 992px) {
 	.widget_wysija {
 		flex-direction: column;
 		align-items: center;
