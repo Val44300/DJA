@@ -196,6 +196,12 @@ header {
 	position: relative;
 }
 
+@media all and (max-width: 768px) {
+	.home {
+		height: 200vh;
+	}
+}
+
 .home .navbar-default {
 	background-color: rgba(255, 255, 255, 0);
 	border: none;
@@ -229,18 +235,49 @@ header {
 	margin-top: 30px;
 }
 
+h1 {
+	font-family: andalemono, sans-serif;
+}
+
+h1 img {
+	width: 80%;
+}
+
 h2 { 
 	font-family: andalemono, sans-serif;
 	font-size: 30px;
 	color: #FB9C2F;
+	margin: 20px 0 20px 0;
 }
 
+h3 {
+	font-family: andalemono, sans-serif;
+	margin: 20px 0 20px 0;
+}
+
+h4 {
+	font-family: andalemono, sans-serif;
+}
+
+h5 {
+	font-family: andalemono, sans-serif;
+	text-decoration: underline;
+	margin: 20px 0 20px 0;
+}
 
 p {
-	font-family: MontserratLight;
+	font-family: MontserratLight, sans-serif;
 	font-size: 14px;
 	margin: 10px 0 10px 0;
 	padding: 0 10px 0 10px;
+}
+
+ul li {
+	font-family: MontserratLight, sans-serif;
+}
+
+input[type="submit"] {
+	font-family: MontserratLight, sans-serif;
 }
 
 .image-page {
@@ -251,6 +288,21 @@ p {
 	width: 75%;
 	height: 300px;
 }
+
+/*
+Formulaire de contact
+*/
+#contact {
+	display: flex;
+	justify-content: space-around;
+}
+
+@media all and (max-width: 768px) {
+	.wpcf7-form-control {
+	width: 50%;
+	}
+}
+
 
 /*
 Champ de recherche
@@ -301,17 +353,22 @@ section {
 
 .content {
 	margin: 0 0 0 20px;
+	width: 90%;
 }
 
 .bkg-lightgrey {
 	background-color: #e9e9ea;
 }
 
-.btn-rouge {
+.btn-rouge, .widget_wysija input[type="submit"] {
     background: #EC0827 ;
     color: #ffffff;
     font-family: Montserrat, semibold;
     text-align: center;
+}
+
+.widget_wysija input[type="submit"] {
+	border-radius: 30px;
 }
 
 .bkg-grey {
@@ -350,7 +407,7 @@ section {
 	float: right;
 }
 
-.btn-orange, .widget_wysija input[type="submit"], #searchsubmit, .wpcf7-submit {
+.btn-orange, #searchsubmit, .wpcf7-submit {
 	background: #f9B157;
 	color: #ffffff;
 	border-radius: 30px;
@@ -398,6 +455,14 @@ section {
 	text-align: right;
 }
 
+.logo-p { /*logos partenaires */
+  margin-top: 25px;
+  max-width: 90%;
+  height: 90%;
+  display: block;
+  width: 50%;
+}
+
 /*
 Footer
 */
@@ -424,7 +489,7 @@ footer .navbar-default {
 	display: flex;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 992px) {
 	.widget_wysija {
 		flex-direction: column;
 		align-items: center;

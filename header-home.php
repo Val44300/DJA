@@ -16,7 +16,7 @@
 			<div class="col-md-2 col-xs-12">
 				<?php tour_du_numerique_the_custom_logo() ?>
 			</div>
-			<div class="col-md-6 col-xs-12">
+			<div class="col-md-6">
 				<div class="navbar navbar-default navbar-header">
 					<?php wp_nav_menu(array('theme_location' => 'main_menu',
 										'menu_class' => 'nav navbar-nav'
@@ -29,7 +29,7 @@
 		</div>
 
 		<div class="titre-principal">
-			<h1><?php bloginfo() ?></h1>
+			<h1><img src="http://localhost/wp-test/wp-content/themes/DJA/images/titre.png" alt="<?php bloginfo() ?>"/></h1>
 			<h2>Du 19 au 29 septembre 2017</h2>
 			<h3>Nantes</h3>
 			<p><a href="#" class="btn btn-rouge btn-lg">DEMARRER LE TOUR</a></p>
