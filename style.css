@@ -196,6 +196,12 @@ header {
 	position: relative;
 }
 
+@media all and (max-width: 768px) {
+	.home {
+		height: 200vh;
+	}
+}
+
 .home .navbar-default {
 	background-color: rgba(255, 255, 255, 0);
 	border: none;
@@ -231,6 +237,10 @@ header {
 
 h1 {
 	font-family: andalemono, sans-serif;
+}
+
+h1 img {
+	width: 80%;
 }
 
 h2 { 
