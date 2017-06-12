@@ -299,7 +299,7 @@ Formulaire de contact
 
 @media all and (max-width: 768px) {
 	.wpcf7-form-control {
-	width: 50%;
+	width: 100%;
 	}
 }
 
