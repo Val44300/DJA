@@ -336,10 +336,18 @@ p{
   text-align: center;
   padding: 0;
 }
-
+@media only screen and (max-width: 500px) {
+    .partenaires {
+      border: 2px solid #C12040;
+      border-radius: 50px;
+      width: 320px;
+      height: 150px;
+      margin: 5px;
+    }
+}
 img { /*logos partenaires */
-  max-width: 90%;
-  height: 90%;
+  max-width: 150px;
+  max-height: 150px;
   display: block;
   }
 footer {
