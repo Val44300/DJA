@@ -562,6 +562,12 @@ programme des animations
 	box-shadow: 5px 5px 5px rgba(90, 90, 90, 0.3);
 }
 
+@media all and (max-width: 768px) {
+	.animation-flex {
+		flex-direction: column;
+	}
+}
+
 .animation-date {
 	text-align: center;
 	color: #ffffff;
