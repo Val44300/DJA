@@ -240,17 +240,22 @@ h1 img {
 h2 {
 	font-family: andalemono, sans-serif;
 	font-size: 30px;
-	color: #FB9C2F;
+	color: #000000;
+	text-align: center;
 	margin: 20px 0 20px 0;
 }
 
 h3 {
 	font-family: andalemono, sans-serif;
 	margin: 20px 0 20px 0;
+	color: #000000;
+	text-align: center;
 }
 
 h4 {
 	font-family: andalemono, sans-serif;
+	color: #000000;
+	text-align: center;
 }
 
 h5 {
