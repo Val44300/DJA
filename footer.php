@@ -1,7 +1,7 @@
 ﻿
 	<footer class="container-fluid">
 	<div class="row">
-		<div class="col-md-offset-3 col-md-6 col-xs-12">
+		<div class="col-md-8 col-xs-12">
 			<?php
 			dynamic_sidebar('widget_footer');
 			?>
