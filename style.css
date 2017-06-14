@@ -1,7 +1,7 @@
 /*
 Theme Name: Theme Tour du Numerique
 Author: Groupe DJA
-Author URI: 
+Author URI:
 Description: Un theme pour le tour du numérique
 */
 
@@ -243,7 +243,7 @@ h1 img {
 	width: 80%;
 }
 
-h2 { 
+h2 {
 	font-family: andalemono, sans-serif;
 	font-size: 30px;
 	color: #FB9C2F;
@@ -480,7 +480,12 @@ footer .navbar-default {
 	border: none;
 
 }
-
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
 .btn-newsletter {
 	margin: 10px 0 10px 0;
 }
@@ -493,7 +498,7 @@ footer .navbar-default {
 	.widget_wysija {
 		flex-direction: column;
 		align-items: center;
-	}	
+	}
 
 	.wysija-paragraph {
 		padding: 0 0 10px 0;
@@ -704,7 +709,7 @@ div .em-booking-login {
 div.em-booking-login {
     border: none !important;
     margin: 0 !important;
-   
+
 }
 
 div.em-booking-login label {

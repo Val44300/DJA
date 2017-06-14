@@ -9,7 +9,7 @@
 	</div>
 		<div class="row">
 			<div class="col-md-2 col-xs-12 social">
-				<a href="#" class="btn btn-default" ><i class="fa fa-facebook fa-2x"></i></a>
+				<a href="#" class="btn btn-default" ><i class="fa fa-facebook-square fa-2x"></i></a>
 				<a href="#" class="btn btn-default" ><i class="fa fa-twitter fa-2x"></i></a>
 			</div>
 
