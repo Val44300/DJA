@@ -15,7 +15,7 @@
 				$background_image = '';
 			}
 			?>		
-				<div class="col-md-6 col-xs-12" style="background: <?php echo "url('" . $background_image . "')"; ?>no-repeat; background-size: cover; height: 500px;">
+				<div class="col-md-6 col-xs-12" style="background: <?php echo "url('" . $background_image . "')"; ?>no-repeat; background-position: center; height: 500px;">
 				<!-- pour éviter des blocs de hauteurs différentes -->
 					<h2><?php the_title(); ?></h2>
 					<?php the_content(); ?>
@@ -52,7 +52,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="partenaires">
-			<h3 class="titre_partenaires">Nos partenaires</h3>
+			<h3 class="titre-partenaires">Nos partenaires</h3>
 			<div class="col-xs-6 col-sm-3 col-md-2">
 				<a href="http://www.nantesmetropole.fr/" target="_blank">
 					<img src="http://localhost/wp-test/wp-content/themes/DJA/images/Nantes_Metropole.jpg" alt="logo Nantes Metropole" class="logo-p">

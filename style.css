@@ -209,6 +209,7 @@ header {
 	margin-top: 15%;
 	color: #ffffff;
 	text-align: center;
+	font-family: andale_mono_mt_stdbold;
 }
 
 .titre-principal h1{
@@ -239,18 +240,21 @@ h1 img {
 
 h2 {
 	font-family: andalemono, sans-serif;
-	font-size: 30px;
-	color: #FB9C2F;
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
 	margin: 20px 0 20px 0;
 }
 
 h3 {
 	font-family: andalemono, sans-serif;
 	margin: 20px 0 20px 0;
+	color: #000000;
 }
 
 h4 {
 	font-family: andalemono, sans-serif;
+	color: #000000;
 }
 
 h5 {
@@ -261,13 +265,22 @@ h5 {
 
 p {
 	font-family: MontserratLight, sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	margin: 10px 0 10px 0;
 	padding: 0 10px 0 10px;
 }
 
 ul li {
 	font-family: MontserratLight, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+input {
+	font-family: MontserratLight, sans-serif;
+	font-size: 12px;
+    background-color: #F5F5F6;
+    margin-top: 10px;
 }
 
 input[type="submit"] {
@@ -449,6 +462,20 @@ section {
 	text-align: right;
 }
 
+.partenaires {
+    border: 2px solid #c12040;
+    border-radius: 60px;
+    height: 100%;
+    margin: 5px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.titre-partenaires {
+	text-align: center;
+}
+
 .logo-p { /*logos partenaires */
   margin-top: 25px;
   width: 100%;
@@ -508,6 +535,7 @@ footer .navbar-default {
 .widget_wysija input[type="submit"] {
 	margin: 0 0 0 10px;
 	border: none;
+	font-size: 14px;
 }
 
 .formErrorContent {
@@ -520,7 +548,7 @@ footer .navbar-default {
 }
 
 .navbar-default ul li a {
-color: #070707;
+	color: #070707;
 }
 
 .accueil-paragraphe a {
