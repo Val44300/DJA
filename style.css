@@ -733,6 +733,9 @@ div .em-booking-login {
 div.em-booking-login {
     border: none !important;
     margin: 0 !important;
+<<<<<<< HEAD
+=======
+>>>>>>> e01dd5600310ba31b90211fb6f47ca31ded4ddd0
 }
 
 div.em-booking-login label {
@@ -751,6 +754,8 @@ div.em-booking-login label {
 		width: 100%;
 	}
 }
+<<<<<<< HEAD
+=======
 
 /*
 Page 404
@@ -759,3 +764,4 @@ Page 404
 .img-404 {
 	width: 75%;
 }
+>>>>>>> e01dd5600310ba31b90211fb6f47ca31ded4ddd0
