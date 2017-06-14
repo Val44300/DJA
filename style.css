@@ -196,12 +196,6 @@ header {
 	position: relative;
 }
 
-@media all and (max-width: 768px) {
-	.home {
-		height: 200vh;
-	}
-}
-
 .home .navbar-default {
 	background-color: rgba(255, 255, 255, 0);
 	border: none;
@@ -605,9 +599,9 @@ programme des animations
 }
 
 .align-bottom-item {
-  display: flex;
-  align-items: flex-end;
-  margin: 0 0 10px 0;
+	display: flex;
+	align-items: flex-end;
+	margin: 0 0 10px 0;
 }
 
 .calendar {
@@ -728,4 +722,12 @@ div.em-booking-login label {
 	iframe {
 		width: 100%;
 	}
+}
+
+/*
+Page 404
+*/
+
+.img-404 {
+	width: 75%;
 }
