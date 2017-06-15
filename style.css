@@ -464,13 +464,26 @@ section {
 }
 
 .partenaires {
-    border: 2px solid #c12040;
-    border-radius: 60px;
-    height: 100%;
     margin: 5px;
     padding: 0;
     position: relative;
     width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    .partenaires {
+      border: 2px solid #C12040;
+      border-radius: 50px;
+      width: 320px;
+      height: 150px;
+      margin: 5px;
+    }
+}
+
+.partenaires-liste {
+	border: 2px solid #C12040;
+    border-radius: 50px;
+    margin: 10px 0 0 0;
 }
 
 .partenaires-page img {
