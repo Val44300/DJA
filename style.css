@@ -206,10 +206,9 @@ header {
 }
 
 .titre-principal {
-	margin-top: 15%;
+	margin-top: 5%;
 	color: #ffffff;
 	text-align: center;
-	font-family: andale_mono_mt_stdbold;
 }
 
 .titre-principal h1{
@@ -222,12 +221,14 @@ header {
 	color: #EC0827;
 	letter-spacing: 5px;
 	margin-top: 30px;
+	font-family: andale_mono_mt_stdbold;
 }
 
 .titre-principal h3{
 	font-size: 30px;
 	letter-spacing: 5px;
 	margin-top: 30px;
+	color: #ffffff;
 }
 
 h1 {
@@ -351,7 +352,7 @@ Logo en bas à droite
 
 
 img.top {
-	 vertical-align: text-middle;
+	 vertical-align: middle;
 }
 
 section {
@@ -470,6 +471,10 @@ section {
     padding: 0;
     position: relative;
     width: 100%;
+}
+
+.partenaires-page img {
+	margin: 10px;
 }
 
 .titre-partenaires {

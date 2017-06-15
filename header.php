@@ -15,9 +15,6 @@
 	<header class="container-fluid">
 	
 		<div class="row">
-			<div class="col-md-2 col-xs-12">
-				<?php tour_du_numerique_the_custom_logo() ?>
-			</div>
 			<div class="col-md-8 col-xs-12 col-centered">
 				<div class="navbar navbar-default">
 					<?php wp_nav_menu(array('theme_location' => 'main_menu',
