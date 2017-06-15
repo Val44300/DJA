@@ -3,6 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Le Tour du Numérique, évènement propulsé par la Filière Numérique de la maison de l'Emploi, propose à tous de découvrir le secteur du numérique par des ateliers, des tables rondes, des visites d'entreprise.">
+	<meta name="keywords" content="tour du numérique, accueil, filière numérique, digital job ambition, maison de l'emploi,métiers, programmation, developpeur, web, formation, septembre 2017"><!-- Google -->
+	<meta property="og:title" content="Le Tour du Numérique #2"><!-- Facebook -->
+	<meta property="og:image" content="accueil.png"><!-- Facebook -->
+	<meta property="og:description" content="Le Tour du Numérique, évènement propulsé par la Filière Numérique de la maison de l'Emploi, propose à tous de découvrir le secteur du numérique par des ateliers, des tables rondes, des visites d'entreprise."><!-- Facebook -->
+	<meta name="twitter:card" content="Le Tour du Numérique, évènement propulsé par la Filière Numérique de la maison de l'Emploi, propose à tous de découvrir le secteur du numérique par des ateliers, des tables rondes, des visites d'entreprise."><!-- Twitter -->
 	<title><?php bloginfo() ?></title>
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
