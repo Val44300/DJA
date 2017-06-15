@@ -148,12 +148,8 @@
 
 }
 
-.container-fluid .home{
-	
 
-}
-
- .home {
+.home {
     vertical-align: middle;
     background: url('../images/accueil.png') no-repeat;
     background-size: cover;
@@ -161,15 +157,31 @@
     position: relative;
 }
 
-.home .navbar-default {
+.entete{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 
+
+}
+
+.affiche{
+	position: relative;
+	margin-left: -450px;
+	margin-top: 20px;
+}
+
+.affiche img{
+	
+	width: 150px;
+	height: 200px;
+
+}
+
+.home .navbar-default {
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-   
-
+   margin-left: 150px;
 }
 
 .home .navbar-header .navbar-nav > li > a {
@@ -177,14 +189,24 @@
     font-family: Montserrat, light;
     font-size: 14px;
     position: relative;
-    margin-top: 20px;
-    text-align: center;
+    margin-top: 40px;
 
+   }
+
+.recherche {
+    background: #818386;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: none;
+    text-align: center;  
 
  }
 
+
 .titre-principal {
-    margin-top: 10px;
+    margin-top: 15px;
     color: #ffffff;
     text-align: center;
     font-family: Andale Mono MT Std, bold;
@@ -193,67 +215,30 @@
 
 .titre-principal img{
 	width: 700px;
-	margin-left: 300px;
 
 }
 
 .titre-principal h2{
-	font-family: Andale Mono MT Std, bold;
 	font-size: 32px;
 	color: #EC0827;
 	letter-spacing: 5px;
 	margin-top: 20px;
-	text-align: center;
 }
 
 .titre-principal h3{
-	font-family: Andale Mono MT Std, bold;
 	font-size: 30px;
 	letter-spacing: 5px;
 	margin-top: 30px;
-	color: #FFFFFF;
-	text-align: center;
 }
 
-.btn-rouge {
-    background: #EC0827 ;
-    color: #ffffff;
-    font-family: Montserrat, semibold;
-    text-align: center;
-    margin-left: 5px;
- }
-
- .recherche {
-    background: #818386;
-    width: 150px;
-    height: 40px;
-    border-radius: 20px;
-    margin-top:20px;
-    box-shadow: none;
-    text-align: center;
-    margin-right: : 20px;
-
- }
 
  .propulse {
-    position: relative;
-    margin-right:15px;
-    bottom: 0px;
+    position: absolute;
+    right: 5px;
+    bottom: -20px;
     border: none;
 }
 
- p .align-right.propulse{
-    text-align: center;
-    margin-left: 10px;
-   
-}
-
-.align-right.propulse img{
-	width: 250px;
-	bottom: 100px;
-	margin-left: 60px;
-	position: relative;
-}
 
 section{
 
@@ -270,6 +255,18 @@ section{
     font-size: 12px;
 }
 
+.presentation_filiere{
+	display: flex;
+
+}
+
+.presentation_filiere img{
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
 .section-content {
 	background-size: cover;
 	position: relative;
@@ -284,12 +281,18 @@ h2{
 	font-size: 20px;
 	color: #000000;
 }
+
 p{
-	font-family: Montserrat, semibold;
+	font-family: Montserrat, light;
 	font-size: 12px;
 }
 
-
+.btn-rouge {
+    background: #EC0827 ;
+    color: #ffffff;
+    font-family: Montserrat, semibold;
+    text-align: center;
+}
 
 .btn-grey {
     background: #818386;
@@ -304,26 +307,27 @@ p{
 
 
 .banniere {
-    height: 300px;
-    background-color: #d43456;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background-color: #D43456;
 }
 
- .banniere img{
- 	width: 280px;
- 	height: 280px;
- 	margin: auto;
- 	padding-top: 10px;
-
- }
-
+.banniere img{
+	position: absolute;
+	left: 40%;
+	margin-top: 25px;
+    width: 300px;
+    height: 300px;
+}
 
 .banniere p {
-    position: relative;
+    position: absolute;
     bottom: 0;
+    right: 15px;
 }
 
 .btn-orange{
-	
 	background: #FB9C2F;
     border-radius: 30px;
     font-family: Montserrat, light;
@@ -334,7 +338,7 @@ p{
 
 .btn-lg {
     padding-top: 20px;
-    margin-top: 40px;
+    margin-top: 50px;
     border-radius: 30px;
     width: 300px;
     height: 70px;
@@ -342,63 +346,84 @@ p{
 }
 
 .btn-md {
-   
-    width: 150px;
-    height: 40px;
+    padding-top: 10px;
+    margin-top: 30px;
+    width: 213px;
+    height: 50px;
     font-size: 16px;
 }
 
+.align-right {
+    text-align: center;
+}
 
 .logo {
     width: 300px;
     height: 300px;
 }
-.partenaires {
-  width: 100%;
-  height: 100%;
-  margin: 5px;
-  padding: 0px;
-  position: relative;
-}
+
+
+
 .titre_partenaires {
-  font-family: Montserrat, bold;
-  font-size: 30px;
   text-align: center;
-  padding: 0px;
+  padding: 0;
+  font-family: Montserrat, regular;
+  font-size: 30px;
 }
 
-img { /*logos partenaires */
-  margin-top: 25px;
-  max-width: 90%;
-  height: 90%;
-  display: block;
-  width: 50%;
+.bloc-partenaires{
+	display: flex;
+	flex-direction: wrap;
+	height: 300px;
+	
+}
+
+.bloc-partenaires img{
+	max-width: 150px;
+	max-height: 80px;
+	width: 150px;
+	height: 200px;
+	margin-top: 20px;
+
+}
+
+.partenaires {
+  	width: 100%;
+   	margin: 5px;
+ 	padding: 0;
+ 	position: relative;
 }
 
 footer {
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
     background-color: #F5F5F6;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 footer .container-fluid{
 	display: flex;
-	flex-direction: column;
+	
 }
 
 footer .navbar-default {
-    background-color: #F5F5F6;
-    margin-top: 80px;
-    width: 100%;
+    
+    align-items: center;
+
+}
+
+.pied-de-page{
+	display: flex;
+	
+}
+
+.newsletter{
+	display: flex;
+	justify-content: center;
 }
 
 ul .navbar.nav{
 	text-align: center;
-}
-
-ul, li{
-	font-family: Montserrat, regular;
-	font-size: 14px;
-	color: #000000;
 }
 
 .img-footer {
@@ -408,15 +433,10 @@ ul, li{
 
 .social a  {
     border: none;
+    width: 200px;
     background-color: #F5F5F6;
 }
 
-input {
-	font-family: Montserrat, light;
-	font-size: 12px;
-    background-color: #F5F5F6;
-   margin-top: 10px;
-}
 
 .btn-newsletter {
     margin: 10px 0 10px 0;
@@ -425,14 +445,10 @@ input {
     color: #ffffff;
 }
 
-.btn-newsletter.btn.btn-rose{
-	background-color: #EC0827;
-	border-radius: 30px;
-}
-
 
 .paragraphe-newsletter {
     margin: 0px 0 0 0;
+
 }
 
 .align-bottom {
