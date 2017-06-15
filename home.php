@@ -50,7 +50,7 @@
 	</div>
 </div>
 <div class="container-fluid">
-	<div class="row">
+	<div class="row partenaires-liste">
 		<div class="partenaires">
 			<h3 class="titre-partenaires">Nos partenaires</h3>
 			<div class="col-xs-6 col-sm-3 col-md-2">
