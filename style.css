@@ -188,11 +188,11 @@ Header
 
 header {
 	background-size: cover;
+	height: 100vh;
 }
 
 .home {
 	vertical-align: middle;
-	height: 100vh;
 	position: relative;
 }
 
@@ -481,30 +481,21 @@ section {
 }
 
 .partenaires {
-    margin: 5px;
-    padding: 0;
-
-}
-
-@media only screen and (max-width: 500px) {
-    .partenaires {
-      width: 320px;
-      height: 150px;
-      margin: 5px;
-    }
-}
-
-.partenaires-liste {
 	border: 2px solid #C12040;
     border-radius: 50px;
-    margin: 10px 0 0 0;
+    margin: 10px 10px 0 10px;
+    text-align: center;
+}
+
+.partenaires img {
+	margin: 0 10px 0 10px;
 }
 
 .partenaires-page img {
 	margin: 10px;
 }
 
-.titre-partenaires {
+.partenaires-titre {
 	text-align: center;
 }
 

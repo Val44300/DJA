@@ -49,6 +49,20 @@
 		
 	</div>
 </div>
+
+<div class="partenaires">
+	<?php
+		$the_query2 = new WP_Query(array('category_name' => 'partenaires-accueil'));
+		while ($the_query2->have_posts()) { ?>
+		<h3><?php the_title(); ?></h3>
+		<?php
+			$the_query2->the_post();
+			the_content();
+		}	
+		?>
+</div>
+
+<!--
 <div class="container-fluid">
 	<div class="row partenaires-liste">
 		<div class="partenaires">
@@ -94,6 +108,6 @@
 				</a>
 			</div>
 		</div>
-	</div><!-- row -->
-</div>
+	</div><!-- row 
+</div>-->
  <?php get_footer(); 
