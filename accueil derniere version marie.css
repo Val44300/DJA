@@ -7,6 +7,10 @@
 
 }
 
+@font-face {
+    font-family: 'remachine';
+    src: url('RemachineScript_Personal_Use.ttf');
+}
 
 
 
@@ -209,7 +213,7 @@
     margin-top: 15px;
     color: #ffffff;
     text-align: center;
-    font-family: Andale Mono MT Std, bold;
+    font-family: remachine;
 
 }
 
@@ -251,7 +255,7 @@ section{
 	position: relative;
 	text-align: center;
     margin-left: 30px;
-    font-family: Montserrat, light;
+    font-family: remachine;
     font-size: 12px;
 }
 
@@ -272,7 +276,7 @@ section{
 	position: relative;
 	text-align: center;
     margin-left: 80px;
-    font-family: Montserrat, light;
+    font-family: remachine, light;
     font-size: 12px;
 }
 
@@ -283,14 +287,14 @@ h2{
 }
 
 p{
-	font-family: Montserrat, light;
+	font-family: remachine, light;
 	font-size: 12px;
 }
 
 .btn-rouge {
     background: #EC0827 ;
     color: #ffffff;
-    font-family: Montserrat, semibold;
+    font-family: remachine, semibold;
     text-align: center;
 }
 

@@ -133,12 +133,12 @@ Description: Un theme pour le tour du numérique
 }
 @font-face {
     font-family: 'MontserratLight';
-    src: url('fonts/MontserratLight.eot');
-    src: url('fonts/MontserratLight.eot') format('embedded-opentype'),
-         url('fonts/MontserratLight.woff2') format('woff2'),
-         url('fonts/MontserratLight.woff') format('woff'),
-         url('fonts/MontserratLight.ttf') format('truetype'),
-         url('fonts/MontserratLight.svg#MontserratLight') format('svg');
+    src: url('http://localhost/wp-test/wp-content/themes/DJA/fonts/MontserratLight.eot');
+    src: url('http://localhost/wp-test/wp-content/themes/DJA/fonts/MontserratLight.eot') format('embedded-opentype'),
+         url('http://localhost/wp-test/wp-content/themes/DJA/fonts/MontserratLight.woff2') format('woff2'),
+         url('http://localhost/wp-test/wp-content/themes/DJA/fonts/MontserratLight.woff') format('woff'),
+         url('http://localhost/wp-test/wp-content/themes/DJA/fonts/MontserratLight.ttf') format('truetype'),
+         url('http://localhost/wp-test/wp-content/themes/DJA/fonts/MontserratLight.svg#MontserratLight') format('svg');
 }
 @font-face {
     font-family: 'MontserratMedium';
@@ -179,6 +179,7 @@ Description: Un theme pour le tour du numérique
 
 body {
 	margin: auto;
+	font-family: MontserratRegular;
 }
 
 /*
@@ -191,18 +192,37 @@ header {
 
 .home {
 	vertical-align: middle;
-	background: url('http://lorempixel.com/1800/900/') no-repeat;
 	height: 100vh;
 	position: relative;
+}
+
+@media all and (max-width: 768px) {
+	.home {
+		height: 150vh;
+	}
 }
 
 .home .navbar-default {
 	background-color: rgba(255, 255, 255, 0);
 	border: none;
+	margin-top: 40px;
+	font-family:  MontserratLight;
 }
 
 .home .navbar-header .navbar-nav > li > a {
-    color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    font-family:  MontserratLight;
+}
+
+.affiche {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.affiche img {
+	width: 150px;
+	height: 200px
 }
 
 .titre-principal {
@@ -221,7 +241,7 @@ header {
 	color: #EC0827;
 	letter-spacing: 5px;
 	margin-top: 30px;
-	font-family: andale_mono_mt_stdbold;
+	font-family: andalemono;
 }
 
 .titre-principal h3{
@@ -232,7 +252,7 @@ header {
 }
 
 h1 {
-	font-family: andalemono, sans-serif;
+	font-family: andalemono;
 }
 
 h1 img {
@@ -240,7 +260,7 @@ h1 img {
 }
 
 h2 {
-	font-family: andalemono, sans-serif;
+	font-family: andalemono;
 	font-size: 20px;
 	color: #000000;
 	text-align: center;
@@ -248,44 +268,41 @@ h2 {
 }
 
 h3 {
-	font-family: andalemono, sans-serif;
 	margin: 20px 0 20px 0;
 	color: #000000;
 }
 
 h4 {
-	font-family: andalemono, sans-serif;
 	color: #000000;
 }
 
 h5 {
-	font-family: andalemono, sans-serif;
 	text-decoration: underline;
 	margin: 20px 0 20px 0;
 }
 
 p {
-	font-family: MontserratLight, sans-serif;
+	font-family: MontserratLight;
 	font-size: 12px;
 	margin: 10px 0 10px 0;
 	padding: 0 10px 0 10px;
 }
 
 ul li {
-	font-family: MontserratLight, sans-serif;
+	font-family: MontserratLight;
 	font-size: 14px;
 	color: #000000;
 }
 
 input {
-	font-family: MontserratLight, sans-serif;
+	font-family: MontserratLight;
 	font-size: 12px;
     background-color: #F5F5F6;
     margin-top: 10px;
 }
 
 input[type="submit"] {
-	font-family: MontserratLight, sans-serif;
+	font-family: MontserratLight;
 }
 
 .image-page {
@@ -332,7 +349,16 @@ Champ de recherche
 
 .searchform
 {
-	margin: 10px 0 0 0;
+	margin: 40px 0 0 0;
+}
+
+#searchsubmit {
+	background: #f9B157;
+	color: #ffffff;
+	border-radius: 40px;
+	height: 40px;
+	border: none;
+	margin-left: 5px;
 }
 
 .screen-reader-text {
@@ -415,7 +441,7 @@ section {
 	float: right;
 }
 
-.btn-orange, #searchsubmit, .wpcf7-submit {
+.btn-orange, .wpcf7-submit {
 	background: #f9B157;
 	color: #ffffff;
 	border-radius: 30px;
@@ -439,24 +465,15 @@ section {
 .btn-md {
     padding-top: 12px;
     margin-top: 30px;
-    width: 213px;
+    width: 200px;
     height: 50px;
     font-size: 16px;
-}
-
-#searchsubmit {
-	border: none;
-	height: 30px;
 }
 
 .btn-grey {
 	background: #818386;
 	color: #ffffff;
 	border-radius: 20px;
-}
-
-.banniere {
-	width: 100%;
 }
 
 .align-right {
@@ -585,7 +602,18 @@ footer .navbar-default {
 .banniere p {
     position: absolute;
     bottom: 0;
-    right: 15px;
+}
+
+@media all and (min-width: 768px;) {
+	.banniere p {
+		right: 15px;
+	}
+}
+
+@media all and (max-width: 768px;) {
+	.banniere p {
+		left: 15px;
+	}
 }
 
 /*
@@ -770,8 +798,6 @@ div.em-booking-login label {
 		width: 100%;
 	}
 }
-<<<<<<< HEAD
-=======
 
 /*
 Page 404
@@ -780,4 +806,4 @@ Page 404
 .img-404 {
 	width: 75%;
 }
->>>>>>> e01dd5600310ba31b90211fb6f47ca31ded4ddd0
+
