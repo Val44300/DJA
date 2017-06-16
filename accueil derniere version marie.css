@@ -213,13 +213,10 @@
     margin-top: 15px;
     color: #ffffff;
     text-align: center;
-    font-family: remachine;
-
 }
 
 .titre-principal img{
 	width: 700px;
-
 }
 
 .titre-principal h2{
@@ -245,7 +242,6 @@
 
 
 section{
-
     display: flex;
  }
 
@@ -255,13 +251,11 @@ section{
 	position: relative;
 	text-align: center;
     margin-left: 30px;
-    font-family: remachine;
     font-size: 12px;
 }
 
 .presentation_filiere{
 	display: flex;
-
 }
 
 .presentation_filiere img{
@@ -276,7 +270,6 @@ section{
 	position: relative;
 	text-align: center;
     margin-left: 80px;
-    font-family: remachine, light;
     font-size: 12px;
 }
 

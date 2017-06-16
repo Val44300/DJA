@@ -133,12 +133,12 @@ Description: Un theme pour le tour du numérique
 }
 @font-face {
     font-family: 'MontserratLight';
-    src: url('http://localhost/wp-test/wp-content/themes/DJA/fonts/MontserratLight.eot');
-    src: url('http://localhost/wp-test/wp-content/themes/DJA/fonts/MontserratLight.eot') format('embedded-opentype'),
-         url('http://localhost/wp-test/wp-content/themes/DJA/fonts/MontserratLight.woff2') format('woff2'),
-         url('http://localhost/wp-test/wp-content/themes/DJA/fonts/MontserratLight.woff') format('woff'),
-         url('http://localhost/wp-test/wp-content/themes/DJA/fonts/MontserratLight.ttf') format('truetype'),
-         url('http://localhost/wp-test/wp-content/themes/DJA/fonts/MontserratLight.svg#MontserratLight') format('svg');
+    src: url('fonts/MontserratLight.eot');
+    src: url('MontserratLight.eot') format('embedded-opentype'),
+         url('fonts/MontserratLight.woff2') format('woff2'),
+         url('fonts/MontserratLight.woff') format('woff'),
+         url('fonts/MontserratLight.ttf') format('truetype'),
+         url('fonts/MontserratLight.svg#MontserratLight') format('svg');
 }
 @font-face {
     font-family: 'MontserratMedium';
@@ -179,7 +179,6 @@ Description: Un theme pour le tour du numérique
 
 body {
 	margin: auto;
-	font-family: MontserratRegular;
 }
 
 /*
@@ -188,12 +187,12 @@ Header
 
 header {
 	background-size: cover;
-	height: 100vh;
 }
 
 .home {
 	vertical-align: middle;
 	position: relative;
+	height: 100vh;
 }
 
 @media all and (max-width: 768px) {
@@ -202,18 +201,18 @@ header {
 	}
 }
 
-.home .navbar-default {
+.home .navbar-default, .navbar-header {
 	background-color: rgba(255, 255, 255, 0);
 	border: none;
 	margin-top: 40px;
-	font-family:  MontserratLight;
 }
 
-.home .navbar-header .navbar-nav > li > a {
+.home .navbar-header .navbar-nav > li > a, .navbar-header .navbar-nav > li > a  {
     color: #000000;
     font-size: 14px;
-    font-family:  MontserratLight;
+	font-family: MontserratLight;
 }
+
 
 .affiche {
 	margin-top: 20px;
@@ -241,18 +240,14 @@ header {
 	color: #EC0827;
 	letter-spacing: 5px;
 	margin-top: 30px;
-	font-family: andalemono;
+	font-family: andale_mono_mt_stdbold;
 }
 
 .titre-principal h3{
 	font-size: 30px;
 	letter-spacing: 5px;
 	margin-top: 30px;
-	color: #ffffff;
-}
-
-h1 {
-	font-family: andalemono;
+	color: #000000;
 }
 
 h1 img {
@@ -260,7 +255,7 @@ h1 img {
 }
 
 h2 {
-	font-family: andalemono;
+	font-family: andale_mono_mt_stdbold;
 	font-size: 20px;
 	color: #000000;
 	text-align: center;
@@ -270,6 +265,7 @@ h2 {
 h3 {
 	margin: 20px 0 20px 0;
 	color: #000000;
+	font-size: 18px;
 }
 
 h4 {
@@ -282,27 +278,22 @@ h5 {
 }
 
 p {
-	font-family: MontserratLight;
 	font-size: 12px;
 	margin: 10px 0 10px 0;
 	padding: 0 10px 0 10px;
+	font-family: MontserratLight;
 }
 
 ul li {
-	font-family: MontserratLight;
 	font-size: 14px;
 	color: #000000;
+	font-family: MontserratLight;
 }
 
 input {
-	font-family: MontserratLight;
 	font-size: 12px;
     background-color: #F5F5F6;
     margin-top: 10px;
-}
-
-input[type="submit"] {
-	font-family: MontserratLight;
 }
 
 .image-page {
@@ -386,7 +377,7 @@ section {
 }
 
 .content {
-	margin: 0 0 0 20px;
+	margin: auto;
 	width: 90%;
 }
 
@@ -397,8 +388,8 @@ section {
 .btn-rouge, .widget_wysija input[type="submit"] {
     background: #EC0827 ;
     color: #ffffff;
-    font-family: Montserrat, semibold;
     text-align: center;
+	font-family: MontserratSemiBold;
 }
 
 .widget_wysija input[type="submit"] {
@@ -442,9 +433,12 @@ section {
 }
 
 .btn-orange, .wpcf7-submit {
-	background: #f9B157;
+	background: #FB9C2F;
 	color: #ffffff;
 	border-radius: 30px;
+	font-family: MontserratLight;
+    font-size: 13px;
+	text-align: center;
 }
 
 .wpcf7-submit {
@@ -474,6 +468,9 @@ section {
 	background: #818386;
 	color: #ffffff;
 	border-radius: 20px;
+	font-family: MontserratLight;
+	font-size: 16px;
+	text-align: center;
 }
 
 .align-right {
@@ -768,9 +765,6 @@ div .em-booking-login {
 div.em-booking-login {
     border: none !important;
     margin: 0 !important;
-<<<<<<< HEAD
-=======
->>>>>>> e01dd5600310ba31b90211fb6f47ca31ded4ddd0
 }
 
 div.em-booking-login label {
@@ -790,6 +784,10 @@ div.em-booking-login label {
 	}
 }
 
+.trombine {
+	width: 100%;
+}
+
 /*
 Page 404
 */
@@ -797,4 +795,3 @@ Page 404
 .img-404 {
 	width: 75%;
 }
-

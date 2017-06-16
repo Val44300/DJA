@@ -25,7 +25,7 @@ get_header();
 					<?php
 					if (has_post_thumbnail()) {
 						?>
-						<a href=<?php echo '"' . get_the_permalink() . '"'?>><img class="trombine" alt=""> src=<?php echo '"' . get_the_post_thumbnail_url() . '"'?>></a>
+						<a href=<?php echo '"' . get_the_permalink() . '"'?>><img class="trombine" alt="" src=<?php echo '"' . get_the_post_thumbnail_url() . '"'?>></a>
 						<?php
 					}
 					 ?>
