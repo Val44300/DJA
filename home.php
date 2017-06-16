@@ -1,4 +1,10 @@
-<?php get_header('home'); ?>
+<?php 
+
+/*
+Template Name: Home
+*/
+
+get_header('home'); ?>
 
 <div class="container-fluid">
 	<?php
@@ -15,8 +21,7 @@
 				$background_image = '';
 			}
 			?>		
-				<div class="col-md-6 col-xs-12" style="background: <?php echo "url('" . $background_image . "')"; ?>no-repeat; background-position: center; height: 500px;">
-				<!-- pour éviter des blocs de hauteurs différentes -->
+				<div class="col-md-6 col-xs-12" style="background: <?php echo "url('" . $background_image . "')"; ?>no-repeat; background-position: center;">
 					<h2><?php the_title(); ?></h2>
 					<?php the_content(); ?>
 				</div>
@@ -27,7 +32,7 @@
 	
 	</div>
 <div class="container-fluid">
-	<div class="row">
+	<div class="row" >
 		
 		<?php
 			$background_image = '';
@@ -40,7 +45,7 @@
 				} else {
 						$background_image = '';
 				} ?>
-				<div class="banniere" style="background: <?php echo "url('" . $background_image . "')"; ?>no-repeat center; background-size: cover; height: 300px;">
+				<div class="banniere" style="background: #d43456 <?php echo "url('" . $background_image . "')"; ?>no-repeat center; height: 300px;">
 				<?php the_content(); ?>
 				</div>
 				<?php
@@ -53,61 +58,12 @@
 <div class="partenaires">
 	<?php
 		$the_query2 = new WP_Query(array('category_name' => 'partenaires-accueil'));
-		while ($the_query2->have_posts()) { ?>
-		<h3><?php the_title(); ?></h3>
-		<?php
-			$the_query2->the_post();
-			the_content();
+		while ($the_query2->have_posts()) {
+			$the_query2->the_post(); ?>
+			<h3><?php the_title(); ?></h3>
+			<?php the_content();
 		}	
 		?>
 </div>
 
-<!--
-<div class="container-fluid">
-	<div class="row partenaires-liste">
-		<div class="partenaires">
-			<h3 class="titre-partenaires">Nos partenaires</h3>
-			<div class="col-xs-6 col-sm-3 col-md-2">
-				<a href="http://www.nantesmetropole.fr/" target="_blank">
-					<img src="http://localhost/wp-test/wp-content/themes/DJA/images/Nantes_Metropole.jpg" alt="logo Nantes Metropole" class="logo-p">
-				</a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2">
-				<a href="http://www.loire-atlantique.fr" target="_blank">
-					<img src="http://localhost/wp-test/wp-content/themes/DJA/images/Logo_CG44.png" alt="logo Departement Loire-Atlantique" class="logo-p">
-				</a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2">
-				<a href="http://www.pole-emploi.fr/" target="_blank">
-					<img src="http://localhost/wp-test/wp-content/themes/DJA/images/POLE_EMPLOI.jpg" alt="logo Pole Emploi" class="logo-p">
-				</a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 logos">
-				<a href="http://www.cget.gouv.fr/" target="_blank">
-					<img src="http://localhost/wp-test/wp-content/themes/DJA/images/etat.png" alt="logo Etat" class="logo-p">
-				</a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 logos">
-				<a href="http://www.iadvize.com/fr/" target="_blank">
-					<img src="http://localhost/wp-test/wp-content/themes/DJA/images/Logo_iAdvize_black.png" alt="logo iAdvize" class="logo-p">
-				</a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 logos">
-				<a href="https://learndigital.withgoogle.com/digitalactive/" target="_blank">
-					<img src="http://localhost/wp-test/wp-content/themes/DJA/images/Digital_Active.png" alt="logo Google Digital Active" class="logo-p">
-				</a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 logos">
-				<a href="http://www.agissonspourlemploi.fr/" target="_blank">
-					<img src="http://localhost/wp-test/wp-content/themes/DJA/images/AGISSONS POUR L EMPLOI.jpeg" alt="logo Agissons pour l'emploi" class="logo-p">
-				</a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 logos">
-				<a href="http://www.adnouest.org/" target="_blank">
-					<img src="http://localhost/wp-test/wp-content/themes/DJA/images/ADNouest.jpg" alt="logo ADN Ouest" class="logo-p">
-				</a>
-			</div>
-		</div>
-	</div><!-- row 
-</div>-->
  <?php get_footer(); 

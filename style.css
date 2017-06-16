@@ -192,12 +192,12 @@ header {
 .home {
 	vertical-align: middle;
 	position: relative;
-	height: 100vh;
+	height: 1024px;
 }
 
 @media all and (max-width: 768px) {
 	.home {
-		height: 150vh;
+		height: 700px;
 	}
 }
 
@@ -212,7 +212,6 @@ header {
     font-size: 14px;
 	font-family: MontserratLight;
 }
-
 
 .affiche {
 	margin-top: 20px;
