@@ -277,7 +277,7 @@ h5 {
 }
 
 p {
-	font-size: 12px;
+	font-size: 14px;
 	margin: 10px 0 10px 0;
 	padding: 0 10px 0 10px;
 	font-family: MontserratLight;
@@ -389,10 +389,6 @@ section {
     color: #ffffff;
     text-align: center;
 	font-family: MontserratSemiBold;
-}
-
-.widget_wysija input[type="submit"] {
-	border-radius: 30px;
 }
 
 .bkg-grey {
@@ -530,36 +526,40 @@ footer .navbar-default {
 
 .widget_wysija{
 	display: flex;
+	flex-wrap: wrap;
 }
 
 @media all and (max-width: 992px) {
 	.widget_wysija {
 		flex-direction: column;
 		align-items: center;
+		margin: 0 0 10px 0;
 	}
 
 	.wysija-paragraph {
 		padding: 0 0 10px 0;
 	}
-
-	.widget_wysija input[type="submit"] {
-    	height: 30px;
-	}
 }
 
 
 .wysija-paragraph {
-	margin: 0 0 0 10px;
+	margin: 0 10px 0 10px;
+}
+
+.widget_wysija input[type="submit"], .widget_wysija input[type="text"] {
+	height: 30px;
 }
 
 .widget_wysija input[type="submit"] {
-	margin: 0 0 0 10px;
+	margin: 10px 0 0 0;
 	border: none;
 	font-size: 14px;
+	border-radius: 30px;
 }
 
+
 .formErrorContent {
- background: orange !important;
+	background: orange !important;
 }
 
 .navbar-default {
@@ -780,6 +780,23 @@ div.em-booking-login label {
 @media all and (max-width: 768px) {
 	iframe {
 		width: 100%;
+	}
+}
+
+.trombine-container {
+	display: inline-block;
+	width: 25%;
+}
+
+@media all and (max-width: 768px) {
+	.trombine-container {
+		width: 50%;
+	}
+}
+
+@media all and (max-width: 992px) {
+	.trombine-container {
+		width: 33%;
 	}
 }
 

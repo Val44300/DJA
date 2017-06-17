@@ -29,9 +29,9 @@ function add_widget()
 
         'after_widget' => '</div>',
 
-        'before_title' => '<h4>',
+        'before_title' => '',
 
-        'after_title' => '</h4>'
+        'after_title' => ''
 
     ));
 
