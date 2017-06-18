@@ -5,12 +5,15 @@ Template Name: Partenaire
 
 get_header(); 
 $categories = ['partenaires institutionnels', 'associations'];
-$categories2 = ['organismes_formations', 'entreprises']; ?>
+$categories2 = ['organismes_formations', 'entreprises'];
 
+  while (have_posts()) {
+	  the_post(); ?>
+	  <h2><?php the_title(); ?></h2>
+	  <?php the_content();
+ } ?>
+ 
 <div class="container-fluid">
-  <h2><?php the_title(); ?></h2>
-  
-
   <div class="row">
     <?php
     foreach ($categories  as $category) {
