@@ -19,7 +19,7 @@
 <body>
 	<header class="container-fluid home" style="background-image: url('<?php header_image(); ?>'); background-size: cover;">
 		<div class="row">
-			<div class="col-md-2 col-xs-12 affiche">
+			<div class="col-md-2 col-xs-12">
 				<?php tour_du_numerique_the_custom_logo() ?>
 			</div>
 			<div class="col-md-6">

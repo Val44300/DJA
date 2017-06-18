@@ -207,10 +207,13 @@ header {
 	margin-top: 40px;
 }
 
-.home .navbar-header .navbar-nav > li > a, .navbar-header .navbar-nav > li > a  {
-    color: #000000;
+.home .navbar-header .navbar-nav > li > a, .navbar-header .navbar-nav > li > a  {   
     font-size: 14px;
 	font-family: MontserratLight;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000000;
 }
 
 .affiche {
@@ -306,6 +309,10 @@ input {
 	height: 300px;
 }
 
+.custom-logo {
+	margin: 10px 0 0 0;
+}
+
 /*
 Formulaire de contact
 */
@@ -319,7 +326,6 @@ Formulaire de contact
 	width: 100%;
 	}
 }
-
 
 /*
 Champ de recherche
