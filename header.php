@@ -12,7 +12,7 @@
 <body>
 
 	<header class="container-fluid">
-	
+	<?php do_action('apply_header_images'); ?>
 		<div class="row">
 			<div class="col-md-8 col-xs-12 col-centered">
 				<div class="navbar navbar-default">
