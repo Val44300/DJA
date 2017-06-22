@@ -209,7 +209,7 @@ header {
 
 .home .navbar-header .navbar-nav > li > a, .navbar-header .navbar-nav > li > a  {   
     font-size: 14px;
-	font-family: MontserratLight;
+	font-family: montserratextrabold;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -296,9 +296,15 @@ ul li {
 }
 
 .home-article {
-	height: 500px;
+	height: 300px;
+	position: relative;
 }
 
+.home-link {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
 
 input {
 	font-size: 12px;
@@ -332,6 +338,14 @@ Formulaire de contact
 #contact {
 	display: flex;
 	justify-content: space-around;
+}
+
+.wpcf7 {
+	display: flex;
+}
+
+.wpcf7-form {
+	margin: auto;
 }
 
 @media all and (max-width: 768px) {
@@ -593,6 +607,12 @@ footer .navbar-default {
 	border-radius: 30px;
 }
 
+@media all and (min-width: 992px) {
+	.formError {
+		left: 35px !important;
+		top: -30px !important;
+	}
+}
 
 .formErrorContent {
 	background: orange !important;
