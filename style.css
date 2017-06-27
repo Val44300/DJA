@@ -296,14 +296,7 @@ ul li {
 }
 
 .home-article {
-	height: 300px;
 	position: relative;
-}
-
-.home-link {
-	position: absolute;
-	bottom: 5px;
-	right: 5px;
 }
 
 input {
@@ -522,11 +515,22 @@ section {
 	text-align: right;
 }
 
+.partenaires-container {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
 .partenaires {
 	border: 2px solid #C12040;
     border-radius: 50px;
     margin: 10px 10px 0 10px;
     text-align: center;
+}
+
+.partenaires-page {
+	width: 50%;
+	margin: auto;
 }
 
 .partenaires img {
