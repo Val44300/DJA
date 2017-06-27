@@ -644,6 +644,7 @@ footer .navbar-default {
 
 .banniere {
 	width: 100%;
+	height: 425px;
 	position: relative;
 }
 
@@ -652,7 +653,6 @@ footer .navbar-default {
     bottom: 0;
     right: 15px;
 }
-
 
 /*
 programme des animations

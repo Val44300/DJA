@@ -45,7 +45,7 @@ get_header('home'); ?>
 				} else {
 						$background_image = '';
 				} ?>
-				<div class="banniere" style="background: #d43456 <?php echo "url('" . $background_image . "')"; ?>no-repeat center; height: 300px;">
+				<div class="banniere" style="background: #d43456 <?php echo "url('" . $background_image . "')"; ?>no-repeat center;">
 				<?php the_content(); ?>
 				</div>
 				<?php
