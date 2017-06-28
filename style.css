@@ -557,7 +557,6 @@ Footer
 
 footer {
 	background-color: #ffffff;
-	position: relative;
 }
 
 footer .navbar-default {
@@ -661,6 +660,27 @@ programme des animations
 .animation {
 	margin-bottom: 20px;
 }
+
+@media all and (min-width: 992px) {
+	.animation {
+		width: 40%;
+	}
+
+	.animation-offset-2 {
+		margin-left: 17%;
+	}
+
+	.animation-offset-5 {
+		margin-left: 42%;
+	}
+}
+
+@media all and (max-width: 992px) {
+	.animation {
+		width: 100%;
+	}
+}
+
 .animation-flex {
 	display: flex;
 	box-shadow: 5px 5px 5px rgba(90, 90, 90, 0.3);

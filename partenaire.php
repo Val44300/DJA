@@ -6,7 +6,6 @@ Template Name: Partenaire
 get_header(); 
 $categories = ['partenaires institutionnels', 'associations', 'organismes_formations', 'entreprises'];
 
-
 while (have_posts()) {
 	  the_post(); ?>
 	  <h2><?php the_title(); ?></h2>
