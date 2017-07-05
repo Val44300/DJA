@@ -207,10 +207,13 @@ header {
 	margin-top: 40px;
 }
 
-.home .navbar-header .navbar-nav > li > a, .navbar-header .navbar-nav > li > a  {
-    color: #000000;
+.home .navbar-header .navbar-nav > li > a, .navbar-header .navbar-nav > li > a  {   
     font-size: 14px;
-	font-family: MontserratLight;
+	font-family: montserratextrabold;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000000;
 }
 
 .affiche {
@@ -258,13 +261,15 @@ h2 {
 	font-size: 20px;
 	color: #000000;
 	text-align: center;
-	margin: 20px 0 20px 0;
+	margin: 10px 0 10px 0;
+	padding: 10px 0 10px 0;
 }
 
 h3 {
 	margin: 20px 0 20px 0;
 	color: #000000;
 	font-size: 18px;
+	padding: 0 0 0 10px;
 }
 
 h4 {
@@ -274,6 +279,7 @@ h4 {
 h5 {
 	text-decoration: underline;
 	margin: 20px 0 20px 0;
+	padding: 0 0 0 10px;
 }
 
 p {
@@ -287,6 +293,10 @@ ul li {
 	font-size: 14px;
 	color: #000000;
 	font-family: MontserratLight;
+}
+
+.home-article {
+	position: relative;
 }
 
 input {
@@ -304,6 +314,17 @@ input {
 	height: 300px;
 }
 
+.custom-logo {
+	margin: 10px 0 0 0;
+}
+
+.dja-filnum {
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px;
+}
+
 /*
 Formulaire de contact
 */
@@ -312,12 +333,19 @@ Formulaire de contact
 	justify-content: space-around;
 }
 
+.wpcf7 {
+	display: flex;
+}
+
+.wpcf7-form {
+	margin: auto;
+}
+
 @media all and (max-width: 768px) {
 	.wpcf7-form-control {
 	width: 100%;
 	}
 }
-
 
 /*
 Champ de recherche
@@ -391,6 +419,11 @@ section {
 	font-family: MontserratSemiBold;
 }
 
+.btn-rouge:hover {
+	background: #F08080;
+	color: #ffffff;
+}
+
 .bkg-grey {
 	background-color: #dcdddd;
 }
@@ -399,7 +432,6 @@ section {
 	text-align : center;
 	display: inline-block;
 	background-color : #8D8D8D;
-	border-color : #8D8D8D;
 	color: white;
 	width : 213px;
 	height : 40px;
@@ -408,19 +440,26 @@ section {
 	margin:  0 20px 0 20px;
 }
 
+.btn-grey:hover {
+	background: #9E9E9E;
+	color: #ffffff;
+}
+
 .filiere-flex {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 }
 
 @media all and (max-width: 768px) {
-	.filiere-flex {
-		flex-direction: column;
-	}
 	.btn-filiere-gris {
 		margin: 10px 0 10px 0;
 	}
+}
+
+.video {
+	margin: 10px 0 0 0;
 }
 
 .alignright {
@@ -436,6 +475,10 @@ section {
 	text-align: center;
 }
 
+.btn-orange:hover {
+	background: #DF6D14;
+	color: #ffffff;
+}
 .wpcf7-submit {
 	border: none;
 	width: 100px;
@@ -472,11 +515,22 @@ section {
 	text-align: right;
 }
 
+.partenaires-container {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
 .partenaires {
 	border: 2px solid #C12040;
     border-radius: 50px;
     margin: 10px 10px 0 10px;
     text-align: center;
+}
+
+.partenaires-page {
+	width: 50%;
+	margin: auto;
 }
 
 .partenaires img {
@@ -503,7 +557,6 @@ Footer
 
 footer {
 	background-color: #ffffff;
-	position: relative;
 }
 
 footer .navbar-default {
@@ -532,7 +585,7 @@ footer .navbar-default {
 @media all and (max-width: 992px) {
 	.widget_wysija {
 		flex-direction: column;
-		align-items: center;
+		align-items: left;
 		margin: 0 0 10px 0;
 	}
 
@@ -557,9 +610,16 @@ footer .navbar-default {
 	border-radius: 30px;
 }
 
+@media all and (min-width: 992px) {
+	.formError {
+		left: 35px !important;
+		top: -30px !important;
+	}
+}
 
 .formErrorContent {
 	background: orange !important;
+	top: 150 !important;
 }
 
 .navbar-default {
@@ -583,24 +643,14 @@ footer .navbar-default {
 
 .banniere {
 	width: 100%;
+	height: 425px;
 	position: relative;
 }
 
 .banniere p {
     position: absolute;
     bottom: 0;
-}
-
-@media all and (min-width: 768px;) {
-	.banniere p {
-		right: 15px;
-	}
-}
-
-@media all and (max-width: 768px;) {
-	.banniere p {
-		left: 15px;
-	}
+    right: 15px;
 }
 
 /*
@@ -610,6 +660,27 @@ programme des animations
 .animation {
 	margin-bottom: 20px;
 }
+
+@media all and (min-width: 992px) {
+	.animation {
+		width: 40%;
+	}
+
+	.animation-offset-2 {
+		margin-left: 17%;
+	}
+
+	.animation-offset-5 {
+		margin-left: 42%;
+	}
+}
+
+@media all and (max-width: 992px) {
+	.animation {
+		width: 100%;
+	}
+}
+
 .animation-flex {
 	display: flex;
 	box-shadow: 5px 5px 5px rgba(90, 90, 90, 0.3);
@@ -803,6 +874,11 @@ div.em-booking-login label {
 .trombine {
 	width: 100%;
 }
+
+td, th {
+	padding: 0 5px 0 5px;
+}
+
 
 /*
 Page 404

@@ -1,4 +1,10 @@
-<?php get_header(); 
+<?php
+
+/*
+Template Name: Filiere
+*/
+
+get_header('filiere');
 
 while (have_posts()) {
 	if (has_post_thumbnail()) {
@@ -15,3 +21,4 @@ while (have_posts()) {
 }
 
 get_footer();
+

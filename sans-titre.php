@@ -1,4 +1,8 @@
-<?php get_header(); 
+<?php
+/* Template Name: Sans titre affiché
+*/
+
+get_header(); 
 
 while (have_posts()) {
 	if (has_post_thumbnail()) {
@@ -8,7 +12,6 @@ while (have_posts()) {
 	} ?>
 	 <div class="content" style="background: <?php echo "url('" . $background_image . "')"; ?>no-repeat; background-position: center; background-size: cover;">
 		<?php the_post();?>
-		<h2><?php the_title(); ?></h2>
 		<?php the_content(); ?>
 	 </div>
 	 <?php

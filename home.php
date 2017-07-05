@@ -21,7 +21,7 @@ get_header('home'); ?>
 				$background_image = '';
 			}
 			?>		
-				<div class="col-md-6 col-xs-12" style="background: <?php echo "url('" . $background_image . "')"; ?>no-repeat; background-position: center;">
+				<div class="col-md-6 col-xs-12 home-article" style="background: <?php echo "url('" . $background_image . "')"; ?>no-repeat; background-position: center;">
 					<h2><?php the_title(); ?></h2>
 					<?php the_content(); ?>
 				</div>
@@ -45,7 +45,7 @@ get_header('home'); ?>
 				} else {
 						$background_image = '';
 				} ?>
-				<div class="banniere" style="background: #d43456 <?php echo "url('" . $background_image . "')"; ?>no-repeat center; height: 300px;">
+				<div class="banniere" style="background: #d43456 <?php echo "url('" . $background_image . "')"; ?>no-repeat center;">
 				<?php the_content(); ?>
 				</div>
 				<?php
