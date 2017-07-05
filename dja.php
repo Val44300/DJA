@@ -13,13 +13,35 @@ while (have_posts()) {
 ?>
 	<div class="content" style="background: <?php echo 'url(' . $background_image . ') no-repeat; background-size: cover;'?>">
 		<h2 style="text-align: center;"><?php the_title(); ?></h2>
-		<?php 
+		<?php
 		the_post();
 		the_content();
 		?>
 		</div><?php
-} ?>
-	
+}
+
+$the_query = new WP_Query(array('category_name' => 'Programme'))
+while ($the_query->have_posts()) {
+	?>
+	<div>
+		<?php $the_query->the_post(); ?>
+		<h2><?php the_title(); ?></h2>
+		<?php the_content(); ?>
+	</div>
+	<?php
+}
+$the_query = new WP_Query(array('category_name' => 'Projets'))
+while ($the_query->have_posts()) {
+	?>
+	<div>
+		<?php $the_query->the_post(); ?>
+		<h2><?php the_title(); ?></h2>
+		<?php the_content(); ?>
+	</div>
+}
+?>
+
+
 	<div style="text-align: center;">
 		<h3>Témoignages</h3>
 			<?php $the_query = new WP_Query(array('category_name' => 'Temoignage', 'posts_per_page' => 20));
@@ -38,5 +60,5 @@ while (have_posts()) {
 				</div> <?php
 			} ?>
 	</div>
-	
+
 <?php get_footer();
