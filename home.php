@@ -6,13 +6,11 @@ Template Name: Home
 
 get_header('home'); ?>
 
-<div class="container-fluid">
-	<?php
+	<div class="home-container">
+		<?php
 		$the_query = new WP_Query(array('category_name' => 'Accueil'));
 		setup_postdata( $post );
-		?>
-	<div class="row">
-		<?php
+
 		while ($the_query->have_posts() ) {
 			$the_query->the_post();
 			if (has_post_thumbnail()) {
@@ -21,16 +19,16 @@ get_header('home'); ?>
 				$background_image = '';
 			}
 			?>		
-				<div class="col-md-6 col-xs-12 home-article" style="background: <?php echo "url('" . $background_image . "')"; ?>no-repeat; background-position: center;">
+				<div class="home-article" style="background: <?php echo "url('" . $background_image . "')"; ?>no-repeat; background-position: center;">
 					<h2><?php the_title(); ?></h2>
 					<?php the_content(); ?>
 				</div>
 		
 			<?php	
 		} ?>
-		</div>
-	
 	</div>
+	
+
 <div class="container-fluid">
 	<div class="row" >
 		
@@ -45,7 +43,7 @@ get_header('home'); ?>
 				} else {
 						$background_image = '';
 				} ?>
-				<div class="banniere" style="background: #d43456 <?php echo "url('" . $background_image . "')"; ?>no-repeat center;">
+				<div class="banniere" style="background: #d43456 <?php echo "url('" . $background_image . "')"; ?>no-repeat center; background-size: contain; ">
 				<?php the_content(); ?>
 				</div>
 				<?php
