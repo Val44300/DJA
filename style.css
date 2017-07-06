@@ -192,7 +192,7 @@ header {
 .home {
 	vertical-align: middle;
 	position: relative;
-	height: 1024px;
+	height: 900px;
 }
 
 @media all and (max-width: 768px) {
@@ -257,9 +257,9 @@ h1 img {
 }
 
 h2 {
-	font-family: andale_mono_mt_stdbold;
-	font-size: 20px;
-	color: #000000;
+	font-family: montserratbold;
+	font-size: 30px;
+	color: #C12040;
 	text-align: center;
 	margin: 10px 0 10px 0;
 	padding: 10px 0 10px 0;
@@ -270,16 +270,20 @@ h3 {
 	color: #000000;
 	font-size: 18px;
 	padding: 0 0 0 10px;
+	font-family: Montserrat,bold;
 }
 
 h4 {
 	color: #000000;
+	font-family: Montserrat,bold;
 }
 
 h5 {
 	text-decoration: underline;
 	margin: 20px 0 20px 0;
 	padding: 0 0 0 10px;
+	font-family: Montserrat,bold;
+
 }
 
 p {
@@ -295,8 +299,40 @@ ul li {
 	font-family: MontserratLight;
 }
 
+img, .img-responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+.home-container {
+	display: flex;
+}
+
+@media all and (max-width: 768px) {
+	.home-container {
+		flex-direction: column;
+	}
+}
+
 .home-article {
-	position: relative;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.home-link {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+
+@media all and (max-width: 768px) {
+	.home-article {
+		width: 100%;
+	}
 }
 
 input {
@@ -311,7 +347,6 @@ input {
 
 .image-page img {
 	width: 75%;
-	height: 300px;
 }
 
 .custom-logo {
@@ -323,6 +358,21 @@ input {
 	border-radius: 20px;
 	padding: 10px;
 	margin: 10px;
+}
+
+.dja-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.dja-article {
+	width: 50%;
+}
+
+@media all and (max-width: 768px) {
+	.dja-article {
+		width: 100%;
+	}
 }
 
 /*
@@ -643,7 +693,7 @@ footer .navbar-default {
 
 .banniere {
 	width: 100%;
-	height: 425px;
+	height: 300px;
 	position: relative;
 }
 
@@ -661,50 +711,43 @@ programme des animations
 	margin-bottom: 20px;
 }
 
-@media all and (min-width: 992px) {
-	.animation {
-		width: 40%;
-	}
+.animation-flex {
+	display: flex;
+	box-shadow: 5px 5px 5px rgba(90, 90, 90, 0.3);
+}
 
-	.animation-offset-2 {
+.animation-date {
+	text-align: center;
+	color: #ffffff;
+	display: flex;
+}
+
+.animation-date p {
+	font-family: montserratbold;
+	margin: auto;
+	font-size: 18px;
+}
+
+@media all and (min-width: 992px) {
+	.animation:nth-of-type(odd) {
 		margin-left: 17%;
 	}
-
-	.animation-offset-5 {
+	
+	.animation:nth-of-type(even) {
 		margin-left: 42%;
 	}
 }
 
-@media all and (max-width: 992px) {
-	.animation {
-		width: 100%;
+@media all and (min-width: 768px) {
+	.animation-date {
+		width: 25%;
 	}
-}
-
-.animation-flex {
-	display: flex;
-	box-shadow: 5px 5px 5px rgba(90, 90, 90, 0.3);
 }
 
 @media all and (max-width: 768px) {
 	.animation-flex {
 		flex-direction: column;
 	}
-}
-
-.animation-date {
-	text-align: center;
-	color: #ffffff;
-	font-size: 2em;
-}
-
-.animation-body {
-	width: 100%;
-	padding: 0 0 0 10px;
-}
-
-.animation-body p {
-	text-align: right;
 }
 
 .event-link {
@@ -738,10 +781,9 @@ programme des animations
 	margin:.25em 10px 10px 0;
 	padding-top:5px;
 	float:left;
-	width:80px;
 	background:#ededef;
 	background:-moz-linear-gradient(top,#ededef,#ccc);
-	font:bold 30px/60px 'Montserrat',Arial,Helvetica,sans-serif;
+	font:bold 30px/60px MontserratRegular, Arial,Helvetica,sans-serif;
 	text-align:center;
 	color:#000;
 	-moz-border-radius:3px;
@@ -750,12 +792,13 @@ programme des animations
 	position:relative;
 	-moz-box-shadow:0 2px 2px #888;
 	-webkit-box-shadow:0 2px 2px #888;
-	box-shadow:0 2px 2px #888
+	box-shadow:0 2px 2px #888;
+	height: 70px;
 }
 
 .calendar em {
 	display:block;
-	font:normal bold 15px/30px 'Montserrat',sans-serif;
+	font:normal bold 15px/30px MontserratRegular,sans-serif;
 	color:#fff;
 	text-shadow:#00365a 0 -1px 0;
 	background:#04599a;
@@ -800,7 +843,6 @@ programme des animations
 	position:absolute;
 	top:-5px;
 	width:4px;
-	height:14px;
 	background:#dadada;
 	background:-moz-linear-gradient(top,#f1f1f1,#aaa);
 	z-index:2;
